@@ -1,11 +1,10 @@
 """
-Django settings for project project.
+A reference project.
 
-For more information on this file, see
-https://docs.djangoproject.com/en/1.7/topics/settings/
+Linking together different data to make a handy reference for the bits of media
+distributed on the internet describing Django.
 
-For the full list of settings and their values, see
-https://docs.djangoproject.com/en/1.7/ref/settings/
+Elena Williams (2014)
 """
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
