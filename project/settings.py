@@ -4,7 +4,8 @@ A reference project.
 Linking together different data to make a handy reference for the bits of media
 distributed on the internet describing Django.
 
-Elena Williams (2014)
+Elena Williams
+CC0 (2014)
 """
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
