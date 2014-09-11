@@ -2,6 +2,7 @@
 from django.db import models
 from django.utils.translation import ugettext_lazy as _
 
+
 class Series(models.Model):
     name = models.CharField(_('Event name'),
                             max_length=64,
@@ -23,5 +24,17 @@ class Event(models.Model):
     date_start = models.DateTimeField(_('Start date/time'))
     date_end = models.DateTimeField(_('End date/time'))
 
+    latitude = models.FloatField(_('Latitude'))
+    longitude = models.FloatField(_('Longitude'))
+    location_description = models.CharField(_('Location'), max_length=50)
+
     def __str__(self):
         return self.name
+
+    @property
+    def latitude_str(self):
+        return str(self.latitude)
+
+    @property
+    def longitude_str(self):
+        return str(self.longitude)
