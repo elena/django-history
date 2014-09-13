@@ -4,6 +4,10 @@ from django.utils.translation import ugettext_lazy as _
 
 
 class Series(models.Model):
+    """ Series is just nice for convenience. As it is not a compulsory field
+    against a talk, it isn't to be taken too seriously.
+    """
+
     name = models.CharField(_('Event name'),
                             max_length=64,
                             help_text="eg. DjangoCon Australia")
@@ -11,8 +15,9 @@ class Series(models.Model):
 
 
 class Event(models.Model):
-
-    is_live = models.BooleanField(_'Live', default=True)
+    is_live = models.BooleanField(_('Live'), default=True)
+    colour = models.CharField(_('Color'), max_length=7, null=True, blank=True,
+                              help_text = "Arbitrary colour for presentation")
 
     series = models.ForeignKey('events.Series', null=True, blank=True)
     series_number = models.CharField(_('Series number'),
