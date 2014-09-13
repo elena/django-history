@@ -26,7 +26,15 @@ class Talk(models.Model):
     date_delivered = models.DateTimeField(_('Date delivered'),
                                           help_text="The date the talk was actually given/delivered/presented.")
 
+    """ Detail from conference website """
+    title = models.CharField(_('Title'), max_length=256, null=True, blank=True)
     abstract = models.TextField(_('Abstract'), blank=True)
+    speaker_bio = models.TextField(_('Speaker bio'), blank=True)
+    conference_url = models.URLField('PyVideo url', null=True, blank=True)
+
+
+    def __str__(self):
+        return self.title
 
 
 class Speaker(models.Model):
