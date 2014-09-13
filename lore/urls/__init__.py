@@ -5,6 +5,10 @@ from lore.views import talk, speaker
 
 
 urls = patterns('lore.views',
+
+    url(r'^(?P<slug>\w+)$',
+        talk.DetailView.as_view(), name='talk_detail'),
+
     url(r'^speaker$',
         speaker.ListView.as_view(), name='speaker_list'),
     url(r'^speaker/(?P<slug>\w+)/$',
