@@ -11,6 +11,9 @@ class Series(models.Model):
 
 
 class Event(models.Model):
+
+    is_live = models.BooleanField(_'Live', default=True)
+
     series = models.ForeignKey('events.Series', null=True, blank=True)
     series_number = models.CharField(_('Series number'),
                                      max_length=32,
