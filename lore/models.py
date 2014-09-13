@@ -4,11 +4,6 @@ from taggit.managers import TaggableManager
 from django.utils.translation import ugettext_lazy as _
 
 
-class Host(models.Model):
-    ## @@ Would ever want to arbitrarily add hosts?
-    # There will probably only ever be tiny clearly defined set.
-    # Initial list: youtube, pyvideo, soundcloud
-    pass
 
 
 class Talk(models.Model):
