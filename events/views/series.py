@@ -1,3 +1,18 @@
-from django.shortcuts import render
+# -*- coding: utf-8 -*-
+from django.views import generic
+from ..models import Series
 
-# Create your views here.
+
+class QuerySetMixin(object):
+
+    model = Series
+
+
+class DetailView(QuerySetMixin, generic.DetailView):
+
+    pass
+
+
+class ListView(QuerySetMixin, generic.ListView):
+
+    pass
