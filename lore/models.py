@@ -12,6 +12,7 @@ class Host(models.Model):
 
 
 class Talk(models.Model):
+    is_live = models.BooleanField(_("Live"), default=True)
     event = models.ForeignKey('events.Event', null=True, blank=True)
     tags = TaggableManager(_('Tags'))
     abstract = models.Textarea(_('Abstract'), blank=True)
