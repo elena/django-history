@@ -19,7 +19,7 @@ class Event(models.Model):
 
     name = models.CharField(_('Event name'),
                             max_length=64,
-                            help_text="")
+                            help_text='Example: DjangoCon AU 2014')
     slug = models.SlugField(max_length=64)
 
     website = models.URLField(_('Website'))
