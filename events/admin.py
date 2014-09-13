@@ -14,7 +14,7 @@ class SeriesAdmin(admin.ModelAdmin):
 admin.site.register(Series, SeriesAdmin)
 
 
-class EventAdmin(admin.TabularInline):
+class EventAdmin(admin.ModelAdmin):
     model = Event
     prepopulated_fields = {"slug":("name",)}
 
