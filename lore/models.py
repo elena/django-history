@@ -16,11 +16,17 @@ class Category(models.Model):
 class Talk(models.Model):
     is_live = models.BooleanField(_("Live"), default=True)
     event = models.ForeignKey('events.Event', null=True, blank=True)
+    speakers = models.ManyToManyField('lore.Speaker')
     tags = TaggableManager(_('Tags'))
-    abstract = models.Textarea(_('Abstract'), blank=True)
-    date_delivered = models.DateTimeField(_('Date delivered'))
 
 
+    categories = models.ManyToManyField('lore.Category',
+                                      help_text="Curated and official 'categorisation' eg.: ORM; Optimization.")
+
+    date_delivered = models.DateTimeField(_('Date delivered'),
+                                          help_text="The date the talk was actually given/delivered/presented.")
+
+    abstract = models.TextField(_('Abstract'), blank=True)
 
 
 class Speaker(models.Model):
