@@ -26,9 +26,10 @@ class Event(models.Model):
     date_start = models.DateTimeField(_('Start date/time'))
     date_end = models.DateTimeField(_('End date/time'))
 
-    latitude = models.FloatField(_('Latitude'))
-    longitude = models.FloatField(_('Longitude'))
-    location_description = models.CharField(_('Location'), max_length=50)
+    latitude = models.FloatField(_('Latitude'), null=True, blank=True)
+    longitude = models.FloatField(_('Longitude'), null=True, blank=True)
+    location_description = models.CharField(_('Location'), max_length=50,
+                                            null=True, blank=True)
 
     def __str__(self):
         return self.name
