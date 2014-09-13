@@ -21,5 +21,3 @@ class Talk(models.Model):
     date_delivered = models.DateTimeField(_('Date delivered'))
 
 
-class Media(models.Model):
-    host = models.ForeignKey('lore.Host')
