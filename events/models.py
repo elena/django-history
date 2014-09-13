@@ -20,6 +20,8 @@ class Event(models.Model):
     name = models.CharField(_('Event name'),
                             max_length=64,
                             help_text="")
+    slug = models.SlugField(max_length=64)
+
     website = models.URLField(_('Website'))
     date_start = models.DateTimeField(_('Start date/time'))
     date_end = models.DateTimeField(_('End date/time'))
