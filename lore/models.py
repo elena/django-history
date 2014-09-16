@@ -8,6 +8,7 @@ class Category(models.Model):
     name = models.CharField(_('Title'), max_length=256, null=True, blank=True)
     colour = models.CharField(_('Color'), max_length=7, null=True, blank=True,
                               help_text = "Arbitrary colour for presentation")
+    slug = models.SlugField(max_length=64)
 
     def __str__(self):
         return self.name
@@ -18,6 +19,7 @@ class Talk(models.Model):
     event = models.ForeignKey('events.Event', null=True, blank=True)
     speakers = models.ManyToManyField('lore.Speaker')
     tags = TaggableManager(_('Tags'))
+    slug = models.SlugField(max_length=64)
 
 
     categories = models.ManyToManyField('lore.Category',
@@ -68,6 +70,7 @@ class Speaker(models.Model):
                               blank=True, null=True)
     pyvideo_pk = models.IntegerField(_('PyVideo pk'), blank=True, null=True,
                                      help_text="ID number used by PyVideo")
+    slug = models.SlugField(max_length=64)
 
     def __str__(self):
         if self.people:
