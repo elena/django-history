@@ -11,6 +11,11 @@ urls = patterns('events.views',
         event.ListView.as_view(), name='event_list'),
     url(r'^(?P<slug>\w+)$',
         event.DetailView.as_view(), name='event_detail'),
+
+    url(r'^series$',
+        series.ListView.as_view(), name='series_list'),
+    url(r'^series/(?P<slug>\w+)/$',
+        series.DetailView.as_view(), name='series_detail'),
 )
 
 urlpatterns = patterns(
