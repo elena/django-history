@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 from django.db import models
+from django.core.urlresolvers import reverse
 from django.utils.translation import ugettext_lazy as _
 
 
@@ -13,6 +14,9 @@ class Series(models.Model):
                             help_text="eg. DjangoCon Australia")
     website = models.URLField(_('Website'))
     slug = models.SlugField(max_length=64)
+
+    def get_absolute_url(self):
+        return reverse('events:series_detail', kwargs={'slug': self.slug})
 
 
 class Event(models.Model):
@@ -46,6 +50,9 @@ class Event(models.Model):
     @property
     def latitude_str(self):
         return str(self.latitude)
+
+    def get_absolute_url(self):
+        return reverse('events:event_detail', kwargs={'slug': self.slug})
 
     @property
     def longitude_str(self):
