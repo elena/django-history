@@ -12,6 +12,7 @@ class Series(models.Model):
                             max_length=64,
                             help_text="eg. DjangoCon Australia")
     website = models.URLField(_('Website'))
+    slug = models.SlugField(max_length=64)
 
 
 class Event(models.Model):
