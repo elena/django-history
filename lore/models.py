@@ -36,6 +36,24 @@ class Talk(models.Model):
     def __str__(self):
         return self.title
 
+    # """ Detail from PyVideo """
+    pyvideo_title = models.TextField(_('PyVideo title'), max_length=256,
+                                     null=True, blank=True)
+    pyvideo_summary = models.TextField(_('PyVideo summary'), blank=True)
+    pyvideo_content = models.TextField(_('PyVideo content'), blank=True)
+    pyvideo_tags = models.TextField(_('PyVideo content'), blank=True)
+    pyvideo_url = models.URLField('PyVideo url', null=True, blank=True)
+
+    # """ Detail from Youtube """
+    youtube_id = models.CharField('Youtube id', max_length=32,
+                                  null=True, blank=True)
+    youtube_title = models.TextField(_('Youtube title'), max_length=256,
+                                     null=True, blank=True)
+    youtube_summary = models.TextField(_('Youtube summary'), blank=True)
+    youtube_content = models.TextField(_('Youtube content'), blank=True)
+    youtube_views = models.IntegerField('Youtube views', null=True, blank=True)
+
+    objects = querysets.TalkManager()
 
 class Speaker(models.Model):
     """ There should nearly certainly should be a separate module for speakers.
