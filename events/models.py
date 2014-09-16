@@ -15,6 +15,9 @@ class Series(models.Model):
     website = models.URLField(_('Website'))
     slug = models.SlugField(max_length=64)
 
+    def __str__(self):
+        return self.name
+
     def get_absolute_url(self):
         return reverse('events:series_detail', kwargs={'slug': self.slug})
 
