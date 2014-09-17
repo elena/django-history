@@ -39,12 +39,12 @@ class Talk(models.Model):
         return self.title
 
     # """ Detail from PyVideo """
+    pyvideo_pk = models.IntegerField('PyVideo pk', null=True, blank=True)
     pyvideo_title = models.TextField(_('PyVideo title'), max_length=256,
                                      null=True, blank=True)
     pyvideo_summary = models.TextField(_('PyVideo summary'), blank=True)
     pyvideo_content = models.TextField(_('PyVideo content'), blank=True)
     pyvideo_tags = models.TextField(_('PyVideo content'), blank=True)
-    pyvideo_url = models.URLField('PyVideo url', null=True, blank=True)
 
     # """ Detail from Youtube """
     youtube_id = models.CharField('Youtube id', max_length=32,
