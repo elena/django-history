@@ -50,12 +50,12 @@ class Event(models.Model):
     def __str__(self):
         return self.name
 
+    def get_absolute_url(self):
+        return reverse('events:event_detail', kwargs={'slug': self.slug})
+
     @property
     def latitude_str(self):
         return str(self.latitude)
-
-    def get_absolute_url(self):
-        return reverse('events:event_detail', kwargs={'slug': self.slug})
 
     @property
     def longitude_str(self):
