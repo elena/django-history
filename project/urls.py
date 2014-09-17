@@ -5,6 +5,9 @@ from django.contrib import admin
 
 urls = patterns('',
 
+    # Talks
+    (r'^', include('lore.urls')),
+
     # Events
     (r'^events/', include('events.urls')),
 
