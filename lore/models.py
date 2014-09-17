@@ -45,6 +45,7 @@ class Talk(models.Model):
     pyvideo_summary = models.TextField(_('PyVideo summary'), blank=True)
     pyvideo_content = models.TextField(_('PyVideo content'), blank=True)
     pyvideo_tags = models.TextField(_('PyVideo content'), blank=True)
+    pyvideo_video_url = models.URLField('PyVideo hosted url', null=True, blank=True)
 
     # """ Detail from Youtube """
     youtube_id = models.CharField('Youtube id', max_length=32,
