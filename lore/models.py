@@ -32,11 +32,11 @@ class Talk(models.Model):
     title = models.CharField(_('Title'), max_length=256, null=True, blank=True)
     abstract = models.TextField(_('Abstract'), blank=True)
     speaker_bio = models.TextField(_('Speaker bio'), blank=True)
-    conference_url = models.URLField('PyVideo url', null=True, blank=True)
 
 
     def __str__(self):
         return self.title
+    conference_url = models.URLField('Conference url', null=True, blank=True)
 
     # """ Detail from PyVideo """
     pyvideo_pk = models.IntegerField('PyVideo pk', null=True, blank=True)
