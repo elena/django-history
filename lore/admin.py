@@ -19,6 +19,6 @@ admin.site.register(Category, CategoryAdmin)
 
 class SpeakerAdmin(admin.ModelAdmin):
     model = Speaker
-    prepopulated_fields = {"slug":("pk", "full_name",)}
+    prepopulated_fields = {"slug":("id", "full_name",)}
 
 admin.site.register(Speaker, SpeakerAdmin)
