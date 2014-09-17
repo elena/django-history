@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 from django.db import models
-from taggit.managers import TaggableManager
+from django.core.urlresolvers import reverse
 from django.utils.translation import ugettext_lazy as _
+from taggit.managers import TaggableManager
 
 
 class Category(models.Model):
@@ -32,10 +33,6 @@ class Talk(models.Model):
     title = models.CharField(_('Title'), max_length=256, null=True, blank=True)
     abstract = models.TextField(_('Abstract'), blank=True)
     speaker_bio = models.TextField(_('Speaker bio'), blank=True)
-
-
-    def __str__(self):
-        return self.title
     conference_url = models.URLField('Conference url', null=True, blank=True)
 
     # """ Detail from PyVideo """
@@ -57,6 +54,13 @@ class Talk(models.Model):
     youtube_views = models.IntegerField('Youtube views', null=True, blank=True)
 
     objects = querysets.TalkManager()
+
+    def __str__(self):
+        return self.title
+
+    def get_absolute_url(self):
+        return reverse('talks:talk_detail', kwargs={'slug': self.slug})
+
 
 class Speaker(models.Model):
     """ There should nearly certainly should be a separate module for speakers.
