@@ -38,6 +38,9 @@ class Event(models.Model):
                             help_text='Example: DjangoCon AU 2014')
     slug = models.SlugField(max_length=64)
 
+    pyvideo_category_title = models.CharField(max_length=128,
+                                              null=True, blank=True)
+
     website = models.URLField(_('Website'))
     date_start = models.DateTimeField(_('Start date/time'))
     date_end = models.DateTimeField(_('End date/time'))
