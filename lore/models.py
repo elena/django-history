@@ -36,7 +36,7 @@ class Talk(models.Model):
     conference_url = models.URLField(_('Conference url'), null=True, blank=True)
 
     # """ Detail from PyVideo """
-    pyvideo_pk = models.IntegerField(_('PyVideo pk'),
+    pyvideo_pk = models.IntegerField(_('PyVideo pk'), unique=True,
                                      null=True, blank=True)
     pyvideo_title = models.TextField(_('PyVideo title'), max_length=256,
                                      null=True, blank=True)
@@ -50,7 +50,7 @@ class Talk(models.Model):
                                         null=True, blank=True)
 
     # """ Detail from Youtube """
-    youtube_id = models.CharField(_('Youtube id'), max_length=32,
+    youtube_id = models.CharField(_('Youtube id'), max_length=32, unique=True,
                                   null=True, blank=True)
     youtube_title = models.TextField(_('Youtube title'), max_length=256,
                                      null=True, blank=True)
