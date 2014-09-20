@@ -15,6 +15,9 @@ class Series(models.Model):
     website = models.URLField(_('Website'))
     slug = models.SlugField(max_length=64)
 
+    class Meta(object):
+        verbose_name_plural = "Series"
+
     def __str__(self):
         return self.name
 
