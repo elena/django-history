@@ -24,34 +24,44 @@ class Talk(models.Model):
 
 
     categories = models.ManyToManyField('lore.Category',
-                                      help_text="Curated and official 'categorisation' eg.: ORM; Optimization.")
+                                        help_text="Curated and official 'categorisation' eg.: ORM; Optimization.")
 
     date_delivered = models.DateTimeField(_('Date delivered'),
                                           help_text="The date the talk was actually given/delivered/presented.")
 
     """ Detail from conference website """
     title = models.CharField(_('Title'), max_length=256, null=True, blank=True)
-    abstract = models.TextField(_('Abstract'), blank=True)
-    speaker_bio = models.TextField(_('Speaker bio'), blank=True)
-    conference_url = models.URLField('Conference url', null=True, blank=True)
+    abstract = models.TextField(_('Abstract'), null=True, blank=True)
+    speaker_bio = models.TextField(_('Speaker bio'), null=True, blank=True)
+    conference_url = models.URLField(_('Conference url'), null=True, blank=True)
 
     # """ Detail from PyVideo """
-    pyvideo_pk = models.IntegerField('PyVideo pk', null=True, blank=True)
+    pyvideo_pk = models.IntegerField(_('PyVideo pk'),
+                                     null=True, blank=True)
     pyvideo_title = models.TextField(_('PyVideo title'), max_length=256,
                                      null=True, blank=True)
-    pyvideo_summary = models.TextField(_('PyVideo summary'), blank=True)
-    pyvideo_content = models.TextField(_('PyVideo content'), blank=True)
-    pyvideo_tags = models.TextField(_('PyVideo content'), blank=True)
-    pyvideo_video_url = models.URLField('PyVideo hosted url', null=True, blank=True)
+    pyvideo_summary = models.TextField(_('PyVideo summary'),
+                                       null=True, blank=True)
+    pyvideo_content = models.TextField(_('PyVideo content'),
+                                       null=True, blank=True)
+    pyvideo_tags = models.TextField(_('PyVideo tags'),
+                                    null=True, blank=True)
+    pyvideo_video_url = models.URLField(_('PyVideo hosted url'),
+                                        null=True, blank=True)
 
     # """ Detail from Youtube """
-    youtube_id = models.CharField('Youtube id', max_length=32,
+    youtube_id = models.CharField(_('Youtube id'), max_length=32,
                                   null=True, blank=True)
     youtube_title = models.TextField(_('Youtube title'), max_length=256,
                                      null=True, blank=True)
-    youtube_summary = models.TextField(_('Youtube summary'), blank=True)
-    youtube_content = models.TextField(_('Youtube content'), blank=True)
-    youtube_views = models.IntegerField('Youtube views', null=True, blank=True)
+    youtube_summary = models.TextField(_('Youtube summary'),
+                                       null=True, blank=True)
+    youtube_content = models.TextField(_('Youtube content'),
+                                       null=True, blank=True)
+    youtube_views = models.IntegerField(_('Youtube views'),
+                                        null=True, blank=True)
+    youtube_thumbnail = models.URLField(_('Youtube thumbnail'),
+                                        null=True, blank=True)
 
     objects = querysets.TalkManager()
 
