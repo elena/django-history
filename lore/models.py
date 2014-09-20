@@ -11,6 +11,9 @@ class Category(models.Model):
                               help_text = "Arbitrary colour for presentation")
     slug = models.SlugField(max_length=64)
 
+    class Meta(object):
+        verbose_name_plural = "Categories"
+
     def __str__(self):
         return self.name
 
