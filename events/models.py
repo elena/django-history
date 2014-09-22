@@ -44,9 +44,11 @@ class Event(models.Model):
     pyvideo_category_title = models.CharField(max_length=128,
                                               null=True, blank=True)
 
-    website = models.URLField(_('Website'))
-    date_start = models.DateTimeField(_('Start date/time'))
-    date_end = models.DateTimeField(_('End date/time'))
+    website = models.URLField(_('Website'), null=True, blank=True)
+    date_start = models.DateTimeField(_('Start date/time'),
+                                      null=True, blank=True)
+    date_end = models.DateTimeField(_('End date/time'),
+                                    null=True, blank=True)
 
     latitude = models.FloatField(_('Latitude'), null=True, blank=True)
     longitude = models.FloatField(_('Longitude'), null=True, blank=True)
