@@ -10,6 +10,7 @@ class EventInlines(admin.TabularInline):
 class SeriesAdmin(admin.ModelAdmin):
     model = Series
     inlines = [EventInlines]
+    prepopulated_fields = {"slug":("name",)}
 
 admin.site.register(Series, SeriesAdmin)
 
