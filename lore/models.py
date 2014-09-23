@@ -86,8 +86,7 @@ class Speaker(models.Model):
 
     But not looking to replace any existing resources out there, just point to them.
     """
-    full_name = models.CharField(_('Full name'), max_length=128,
-                                 blank=True, null=True)
+    full_name = models.CharField(_('Full name'), max_length=128)
     prenom = models.CharField(_('Prenom'), max_length=64, blank=True, null=True,
                               help_text="Name for casual reference.")
     people = models.CharField(_('Django people username'), max_length=30,
