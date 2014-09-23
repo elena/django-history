@@ -9,7 +9,6 @@ class TalkAdmin(admin.ModelAdmin):
 
 admin.site.register(Talk, TalkAdmin)
 
-
 class CategoryAdmin(admin.ModelAdmin):
     model = Category
     prepopulated_fields = {"slug":("name",)}
@@ -19,6 +18,6 @@ admin.site.register(Category, CategoryAdmin)
 
 class SpeakerAdmin(admin.ModelAdmin):
     model = Speaker
-    prepopulated_fields = {"slug":("id", "full_name",)}
+    prepopulated_fields = {"slug":("full_name",)}
 
 admin.site.register(Speaker, SpeakerAdmin)
