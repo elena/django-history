@@ -95,6 +95,9 @@ class Speaker(models.Model):
     full_name = models.CharField(_('Full name'), max_length=128)
     prenom = models.CharField(_('Prenom'), max_length=64, blank=True, null=True,
                               help_text="Name for casual reference.")
+    slug = models.SlugField(max_length=64, blank=True, null=True)
+    last_updated = models.DateTimeField(auto_now=True)
+
     people = models.CharField(_('Django people username'), max_length=30,
                               blank=True, null=True)
     people_photo = models.URLField(_('Django people gravatar'),
@@ -104,7 +107,6 @@ class Speaker(models.Model):
 
     pyvideo_pk = models.IntegerField(_('PyVideo pk'), blank=True, null=True,
                                      help_text="ID number used by PyVideo")
-    slug = models.SlugField(max_length=64)
 
     def __str__(self):
         if self.people:
