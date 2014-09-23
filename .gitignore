@@ -3,7 +3,7 @@
 .Python
 .DS_Store
 .coverage
-/development.db
+/db.sqlite3
 /bin/
 /build/
 /docs/_build/
