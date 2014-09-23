@@ -112,3 +112,9 @@ class Speaker(models.Model):
         if self.people:
             return "{0} ({1})".format(self.full_name, self.people)
         return self.full_name
+
+    def get_absolute_url(self):
+        return reverse('talks:speaker_detail', kwargs={'slug': self.slug})
+
+    def save(self, *args, **kwargs):
+        super(Speaker, self).save(*args, **kwargs)
