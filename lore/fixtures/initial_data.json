@@ -1,0 +1,1220 @@
+[
+{
+    "fields": {
+        "last_updated": "2014-09-22T12:54:42.250Z",
+        "prenom": "",
+        "people": "",
+        "pyvideo_pk": null,
+        "people_photo": "",
+        "people_finding": "",
+        "full_name": "Malcolm Tredinnick",
+        "slug": "malcolm-tredinnick"
+    },
+    "model": "lore.speaker",
+    "pk": 1
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T15:31:51.302Z",
+        "prenom": "Adrian",
+        "people": "adrian",
+        "pyvideo_pk": null,
+        "people_photo": "https://secure.gravatar.com/avatar/0e4a313a845e7e83d8c9e5dd97f7d016?s=40&d=mm",
+        "people_finding": "https://github.com/adrianholovaty<br>http://twitter.com/adrianholovaty",
+        "full_name": "Adrian Holovaty",
+        "slug": "adrian-holovaty"
+    },
+    "model": "lore.speaker",
+    "pk": 2
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T15:58:50.277Z",
+        "prenom": "Jacob",
+        "people": "jacobian",
+        "pyvideo_pk": null,
+        "people_photo": "https://secure.gravatar.com/avatar/2f5463832ccb768ccb4a1ca3607c27ef?s=40&d=mm",
+        "people_finding": "http://del.icio.us/jacobian/<br>http://www.djangosnippets.org/users/jacobian/<br>http://www.flickr.com/photos/jacobian/<br>http://github.com/jacobian<br>http://www.linkedin.com/in/jacobian<br>http://twitter.com/jacobian",
+        "full_name": "Jacob Kaplan-Moss",
+        "slug": "jacob-kaplan-moss"
+    },
+    "model": "lore.speaker",
+    "pk": 3
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T16:06:47.594Z",
+        "prenom": "Simon",
+        "people": "simon",
+        "pyvideo_pk": null,
+        "people_photo": "https://secure.gravatar.com/avatar/ac7005eff7720218df4cf0c72ddf6a3d?d=mm&s=40",
+        "people_finding": "http://del.icio.us/simonw<br>http://www.djangosites.org/author/simon/<br>http://www.djangosnippets.org/users/simon/<br>http://www.flickr.com/photos/simon/<br>http://twitter.com/simonw",
+        "full_name": "Simon Willison",
+        "slug": "simon-willison"
+    },
+    "model": "lore.speaker",
+    "pk": 4
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T16:07:09.515Z",
+        "prenom": "James",
+        "people": "ubernostrum",
+        "pyvideo_pk": null,
+        "people_photo": "https://secure.gravatar.com/avatar/aa415d4ce00845ac88118f37ef3f7c26?s=40&d=mm",
+        "people_finding": "http://del.icio.us/ubernostrum<br>http://www.djangosnippets.org/users/ubernostrum/<br>http://www.flickr.com/photos/ubernostrum/<br>http://www.linkedin.com/in/ubernostrum<br>http://pownce.com/ubernostrum/<br>http://twitter.com/ubernostrum",
+        "full_name": "James Bennett",
+        "slug": "james-bennett"
+    },
+    "model": "lore.speaker",
+    "pk": 5
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T16:07:35.824Z",
+        "prenom": "Russell",
+        "people": "freakboy3742",
+        "pyvideo_pk": null,
+        "people_photo": "https://secure.gravatar.com/avatar/b91373320dbc3bc52fcd870d3b21748f?d=mm&s=40",
+        "people_finding": "http://del.icio.us/freakboy3742<br>http://www.djangosnippets.org/users/freakboy3742/<br>http://www.facebook.com/profile.php?id=793072271<br>http://www.linkedin.com/pub/2/495/777<br>http://twitter.com/freakboy3742",
+        "full_name": "Russell Keith-Magee",
+        "slug": "russell-keith-magee"
+    },
+    "model": "lore.speaker",
+    "pk": 6
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T16:07:57.388Z",
+        "prenom": "Daniel",
+        "people": "pydanny",
+        "pyvideo_pk": null,
+        "people_photo": "https://secure.gravatar.com/avatar/67e05420d4dd3492097aeb77f44f7867?d=mm&s=40",
+        "people_finding": "https://bitbucket.org/pydanny<br>http://flickr.com/photos/pydanny<br>http://github.com/pydanny<br>http://www.linkedin.com/profile?viewProfile=&key=6473174&trk=tab_pro<br>http://twitter.com/pydanny",
+        "full_name": "Daniel Greenfeld",
+        "slug": "daniel-greenfeld"
+    },
+    "model": "lore.speaker",
+    "pk": 7
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T16:10:18.646Z",
+        "prenom": "Karen",
+        "people": "kmtracey",
+        "pyvideo_pk": null,
+        "people_photo": "https://secure.gravatar.com/avatar/86c985aa7b37c24e0ba8c2201fc65e8e?d=mm&s=40",
+        "people_finding": "",
+        "full_name": "Karen Tracey",
+        "slug": "karen-tracey"
+    },
+    "model": "lore.speaker",
+    "pk": 8
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T16:31:41.071Z",
+        "prenom": "Alex",
+        "people": "kingkilr",
+        "pyvideo_pk": null,
+        "people_photo": "https://secure.gravatar.com/avatar/edcdfd5affb524e0f88ec1a00ed3fe5d?d=mm&s=40",
+        "people_finding": "https://bitbucket.org/alex_gaynor<br>https://github.com/alex/<br>http://www.linkedin.com/profile?viewProfile=&key=11712065&locale=en_US&trk=tab_pro<br>http://twitter.com/alex_gaynor",
+        "full_name": "Alex Gaynor",
+        "slug": "alex-gaynor"
+    },
+    "model": "lore.speaker",
+    "pk": 9
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:15:10.601Z",
+        "prenom": "Andrew",
+        "people": "andrew",
+        "pyvideo_pk": null,
+        "people_photo": "https://secure.gravatar.com/avatar/077e9a0cb34fa3eba2699240c9509717?s=40&d=mm",
+        "people_finding": "",
+        "full_name": "Andrew Godwin",
+        "slug": "andrew-godwin"
+    },
+    "model": "lore.speaker",
+    "pk": 10
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:15:23.666Z",
+        "prenom": "Julien",
+        "people": "julien",
+        "pyvideo_pk": null,
+        "people_photo": "https://secure.gravatar.com/avatar/6f40ad29b32551ad3f37258d0801a00d?s=40&d=mm",
+        "people_finding": "https://github.com/jphalip<br>https://twitter.com/julienphalip",
+        "full_name": "Julien Phalip",
+        "slug": "julien-phalip"
+    },
+    "model": "lore.speaker",
+    "pk": 11
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:17:20.267Z",
+        "prenom": "Bryan",
+        "people": "bryan",
+        "pyvideo_pk": null,
+        "people_photo": "https://secure.gravatar.com/avatar/a60068bce2e73de3a37ca9d2dbe36092?d=mm&s=40",
+        "people_finding": "http://delicious.com/avalonstar<br>http://djangosites.org/author/bryan/<br>http://djangosnippets.org/users/revyver/<br>http://facebook.com/profile.php?id=42403178<br>http://flickr.com/photos/avalonstar<br>http://linkedin.com/in/bryanveloso<br>http://pownce.com/bryan/<br>http://twitter.com/bryanveloso",
+        "full_name": "Bryan Veloso",
+        "slug": "bryan-veloso"
+    },
+    "model": "lore.speaker",
+    "pk": 12
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:17:43.888Z",
+        "prenom": "Carl",
+        "people": "carljm",
+        "pyvideo_pk": null,
+        "people_photo": "https://secure.gravatar.com/avatar/b1f36e554be0e1ae19f9a74d6ece9107?s=40&d=mm",
+        "people_finding": "https://github.com/carljm<br>http://linkedin.com/in/carljm<br>http://stackoverflow.com/users/3207/carl-meyer<br>http://twitter.com/carljm",
+        "full_name": "Carl Meyer",
+        "slug": "carl-meyer"
+    },
+    "model": "lore.speaker",
+    "pk": 13
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:18:13.106Z",
+        "prenom": "Justin",
+        "people": "justinlilly",
+        "pyvideo_pk": null,
+        "people_photo": "https://secure.gravatar.com/avatar/8d45890e1f6bee3cb986cd77777a1360?s=40&d=mm",
+        "people_finding": "http://del.icio.us/justinlilly<br>http://www.djangosites.org/author/justinlilly/<br>http://djangosnippets.org/justinlilly<br>http://facebook.com/justinlilly<br>http://flickr.com/justinlilly<br>http://linkedin.com/in/justinlilly<br>http://ma.gnolia.com/people/justinlilly<br>http://www.pownce.com/justinlilly<br>http://twitter.com/justinlilly",
+        "full_name": "Justin Lilly",
+        "slug": "justin-lilly"
+    },
+    "model": "lore.speaker",
+    "pk": 14
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:18:17.472Z",
+        "prenom": "Daniel",
+        "people": "daniellindsley",
+        "pyvideo_pk": null,
+        "people_photo": "https://secure.gravatar.com/avatar/ea39e564e226a87b507a00d46e471e10?s=40&d=mm",
+        "people_finding": "http://djangosites.org/author/daniellindsley/<br>http://www.djangosnippets.org/users/daniellindsley/<br>http://twitter.com/daniellindsley",
+        "full_name": "Daniel Lindsley",
+        "slug": "daniel-lindsley"
+    },
+    "model": "lore.speaker",
+    "pk": 15
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:18:18.639Z",
+        "prenom": "Kenneth",
+        "people": "kennethlove",
+        "pyvideo_pk": null,
+        "people_photo": "https://secure.gravatar.com/avatar/9cbbf3d3f34f5ee7c34d32a1be39e713?s=40&d=mm",
+        "people_finding": "https://bitbucket.org/kennethlove<br>https://github.com/kennethlove<br>http://twitter.com/kennethlove",
+        "full_name": "Kenneth Love",
+        "slug": "kenneth-love"
+    },
+    "model": "lore.speaker",
+    "pk": 16
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:18:21.089Z",
+        "prenom": "James",
+        "people": "jtauber",
+        "pyvideo_pk": null,
+        "people_photo": "https://secure.gravatar.com/avatar/f2d9cd49c78a2f6151175c7c651a2f16?d=mm&s=40",
+        "people_finding": "http://www.djangosites.org/author/jtauber/<br>http://www.facebook.com/profile.php?id=849890499<br>http://www.linkedin.com/in/jtauber",
+        "full_name": "James Tauber",
+        "slug": "james-tauber"
+    },
+    "model": "lore.speaker",
+    "pk": 17
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:18:23.753Z",
+        "prenom": "Brian",
+        "people": "brosner",
+        "pyvideo_pk": null,
+        "people_photo": "https://secure.gravatar.com/avatar/b7472bc7aa45c70641c299e9408b78ab?d=mm&s=40",
+        "people_finding": "http://www.djangosnippets.org/users/brosner/<br>http://www.flickr.com/photos/brosner/<br>http://pownce.com/brosner/<br>http://twitter.com/brosner",
+        "full_name": "Brian Rosner",
+        "slug": "brian-rosner"
+    },
+    "model": "lore.speaker",
+    "pk": 18
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:18:24.616Z",
+        "prenom": "Eric",
+        "people": "ericholscher",
+        "pyvideo_pk": null,
+        "people_photo": "https://secure.gravatar.com/avatar/a985c35d6be3c88a87d92b92b0d3756f?d=mm&s=40",
+        "people_finding": "http://delicious.com/ericholscher<br>http://www.flickr.com/photos/ericholscher/<br>http://www.linkedin.com/profile?viewProfile=&key=12499850&trk=tab_pro<br>http://twitter.com/ericholscher",
+        "full_name": "Eric Holscher",
+        "slug": "eric-holscher"
+    },
+    "model": "lore.speaker",
+    "pk": 19
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:18:25.619Z",
+        "prenom": "Eric",
+        "people": "ericflo",
+        "pyvideo_pk": null,
+        "people_photo": "https://secure.gravatar.com/avatar/04d6b8e8d3c68899ac88eb8623392150?s=40&d=mm",
+        "people_finding": "http://www.djangosnippets.org/users/ericflo/<br>http://iastate.facebook.com/profile.php?id=16904779<br>http://www.flickr.com/photos/83888483@N00/<br>http://www.pownce.com/ericflo/",
+        "full_name": "Eric Florenzano",
+        "slug": "eric-florenzano"
+    },
+    "model": "lore.speaker",
+    "pk": 20
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:18:27.061Z",
+        "prenom": "Julia",
+        "people": "juliae",
+        "pyvideo_pk": null,
+        "people_photo": "https://secure.gravatar.com/avatar/cea2b34ae0e15b57e4c022dc6198e8b8?d=mm&s=40",
+        "people_finding": "http://www.facebook.com/people/Julia_Elman/<br>http://www.linkedin.com/in/juliaelman<br>http://twitter.com/juliae/",
+        "full_name": "Julia Elman",
+        "slug": "julia-elman"
+    },
+    "model": "lore.speaker",
+    "pk": 21
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:18:29.704Z",
+        "prenom": "Frank",
+        "people": "frankwiles",
+        "pyvideo_pk": null,
+        "people_photo": "https://secure.gravatar.com/avatar/a31d318a5359965318d604799c0d3e2c?d=mm&s=40",
+        "people_finding": "http://www.linkedin.com/in/frankwiles<br>http://twitter.com/fwiles",
+        "full_name": "Frank Wiles",
+        "slug": "frank-wiles"
+    },
+    "model": "lore.speaker",
+    "pk": 22
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:18:47.486Z",
+        "prenom": "Kevin",
+        "people": "kfricovsky",
+        "pyvideo_pk": null,
+        "people_photo": "https://secure.gravatar.com/avatar/af0c0f120ded1fa94dee488bd6b70f5a?s=40&d=mm",
+        "people_finding": "",
+        "full_name": "Kevin Fricovsk",
+        "slug": "kevin-fricovsk"
+    },
+    "model": "lore.speaker",
+    "pk": 23
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:19:15.912Z",
+        "prenom": "Brandon",
+        "people": "adoleo",
+        "pyvideo_pk": null,
+        "people_photo": "https://secure.gravatar.com/avatar/a5c05cf00cecae25541439b636032d48?s=40&d=mm",
+        "people_finding": "http://facebook.com/brandon.konkle<br>http://www.linkedin.com/in/brandonkonkle<br>http://twitter.com/bkonkle/",
+        "full_name": "Brandon Konkle",
+        "slug": "brandon-konkle"
+    },
+    "model": "lore.speaker",
+    "pk": 24
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:19:21.821Z",
+        "prenom": "David",
+        "people": "zeeg",
+        "pyvideo_pk": null,
+        "people_photo": "https://secure.gravatar.com/avatar/51567a4f786cd8a2c41c513b592de9f9?s=40&d=mm",
+        "people_finding": "http://www.djangosites.org/s/www-curse-com/<br>http://www.djangosnippets.org/users/zeeg/<br>http://www.facebook.com/profile.php?id=503846976<br>http://www.flickr.com/photos/zeeg99<br>http://www.linkedin.com/in/dmcramer",
+        "full_name": "David Cramer",
+        "slug": "david-cramer"
+    },
+    "model": "lore.speaker",
+    "pk": 25
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:19:30.885Z",
+        "prenom": "Jacob",
+        "people": "otherjacob",
+        "pyvideo_pk": null,
+        "people_photo": "https://secure.gravatar.com/avatar/9ac966e78d1d6116959d9f6708132020?d=mm&s=40",
+        "people_finding": "http://www.delicious.com/roarke<br>http://www.facebook.com/jacobburch<br>http://twitter.com/jacobburch",
+        "full_name": "Jacob Burch",
+        "slug": "jacob-burch"
+    },
+    "model": "lore.speaker",
+    "pk": 26
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:19:40.239Z",
+        "prenom": "Peter",
+        "people": "lincolnloop",
+        "pyvideo_pk": null,
+        "people_photo": "https://secure.gravatar.com/avatar/1baff81819df274d57b8b1649b30259d?d=mm&s=40",
+        "people_finding": "http://www.linkedin.com/in/lincolnloop<br>http://twitter.com/ipmb",
+        "full_name": "Peter Baumgartner",
+        "slug": "peter-baumgartner"
+    },
+    "model": "lore.speaker",
+    "pk": 27
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:19:40.929Z",
+        "prenom": "Noah",
+        "people": "coderanger",
+        "pyvideo_pk": null,
+        "people_photo": "https://secure.gravatar.com/avatar/cf611565f0b79abd0b3dc200ad867661?s=40&d=mm",
+        "people_finding": "http://twitter.com/kantrn",
+        "full_name": "Noah Kantrowitz",
+        "slug": "noah-kantrowitz"
+    },
+    "model": "lore.speaker",
+    "pk": 28
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:19:42.524Z",
+        "prenom": "Simon",
+        "people": "drmeers",
+        "pyvideo_pk": null,
+        "people_photo": "https://secure.gravatar.com/avatar/36013fa847a29816cc8e5855241bbca6?d=mm&s=40",
+        "people_finding": "",
+        "full_name": "Simon Meers",
+        "slug": "simon-meers"
+    },
+    "model": "lore.speaker",
+    "pk": 29
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:19:48.991Z",
+        "prenom": "Ted",
+        "people": "twleung",
+        "pyvideo_pk": null,
+        "people_photo": "https://secure.gravatar.com/avatar/1651075c4a3dd77e9e3f57342469f0a1?d=mm&s=40",
+        "people_finding": "http://www.facebook.com/ted.leung<br>http://www.flickr.com/photos/twleung/<br>http://www.linkedin.com/in/tedleung<br>http://twitter.com/twleung",
+        "full_name": "Ted Leung",
+        "slug": "ted-leung"
+    },
+    "model": "lore.speaker",
+    "pk": 30
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:19:50.167Z",
+        "prenom": "Steve",
+        "people": "holdenweb",
+        "pyvideo_pk": null,
+        "people_photo": "https://secure.gravatar.com/avatar/2c69ccb9eb83c7ef2ba155a850df68a9?d=mm&s=40",
+        "people_finding": "http://del.icio.us/steve.holden/<br>http://www.facebook.com/profile.php?id=541388838<br>http://www.flickr.com/people/holdenweb/<br>http://www.linkedin.com/profile?viewProfile=&key=445505<br>http://twitter.com/holdenweb",
+        "full_name": "Steve Holden",
+        "slug": "steve-holden"
+    },
+    "model": "lore.speaker",
+    "pk": 31
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:19:53.620Z",
+        "prenom": "Zain",
+        "people": "zain",
+        "pyvideo_pk": null,
+        "people_photo": "https://secure.gravatar.com/avatar/81815b0ee63c3432b8fd53781f5b0997?s=40&d=mm",
+        "people_finding": "http://www.djangosnippets.org/users/zain/<br>http://www.linkedin.com/in/zainm<br>http://twitter.com/zainy",
+        "full_name": "Zain Memon",
+        "slug": "zain-memon"
+    },
+    "model": "lore.speaker",
+    "pk": 32
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:20:07.964Z",
+        "prenom": "Ken",
+        "people": "kencochrane",
+        "pyvideo_pk": null,
+        "people_photo": "https://secure.gravatar.com/avatar/5b5661a3a443a2a4bece8674006bd6ef?d=mm&s=40",
+        "people_finding": "https://bitbucket.org/kencochrane<br>http://delicious.com/kencochrane<br>http://www.djangosites.org/author/kencochrane/<br>http://www.flickr.com/photos/32957595@N04/<br>https://github.com/kencochrane<br>http://www.linkedin.com/in/kencochrane<br>http://stackoverflow.com/users/356788/ken-cochrane<br>https://twitter.com/KenCochrane",
+        "full_name": "Ken Cochrane",
+        "slug": "ken-cochrane"
+    },
+    "model": "lore.speaker",
+    "pk": 33
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:20:26.623Z",
+        "prenom": "Andy",
+        "people": "andymckay",
+        "pyvideo_pk": null,
+        "people_photo": "https://secure.gravatar.com/avatar/45ae4ec5560797289f84140b0b06c7e2?s=40&d=mm",
+        "people_finding": "http://github.com/andymckay<br>http://twitter.com/clearwind",
+        "full_name": "Andy Mckay",
+        "slug": "andy-mckay"
+    },
+    "model": "lore.speaker",
+    "pk": 34
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:20:42.329Z",
+        "prenom": "Curtis",
+        "people": "funkybob",
+        "pyvideo_pk": null,
+        "people_photo": "https://secure.gravatar.com/avatar/e8ecc517223c3e0cbfd0108019d87bed?d=mm&s=40",
+        "people_finding": "http://bitbucket.org/funkybob<br>http://github.com/funkybob",
+        "full_name": "Curtis Maloney",
+        "slug": "curtis-maloney"
+    },
+    "model": "lore.speaker",
+    "pk": 35
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:20:46.116Z",
+        "prenom": "Idan",
+        "people": "idan",
+        "pyvideo_pk": null,
+        "people_photo": "https://secure.gravatar.com/avatar/0d877f80c535471ede57c7a4c0f487de?d=mm&s=40",
+        "people_finding": "http://flickr.com/photos/idangazit<br>http://github.com/idangazit<br>http://twitter.com/idangazit",
+        "full_name": "Idan Gazit",
+        "slug": "idan-gazit"
+    },
+    "model": "lore.speaker",
+    "pk": 36
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:20:52.857Z",
+        "prenom": "Greg",
+        "people": "cogat",
+        "pyvideo_pk": null,
+        "people_photo": "https://secure.gravatar.com/avatar/3a8c9cad464dd9df7fca5fe1f61eb28b?s=40&d=mm",
+        "people_finding": "",
+        "full_name": "Greg Turner",
+        "slug": "greg-turner"
+    },
+    "model": "lore.speaker",
+    "pk": 37
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:21:55.964Z",
+        "prenom": "Adam",
+        "people": "adam",
+        "pyvideo_pk": null,
+        "people_photo": "https://secure.gravatar.com/avatar/b2d304e86ff8d5487f7a38ad8a7ced8c?s=40&d=mm",
+        "people_finding": "http://www.djangosites.org/author/adamfast/<br>http://www.flickr.com/photos/adamfastphoto/<br>http://www.linkedin.com/in/adamfast<br>http://www.twitter.com/adamcanfly",
+        "full_name": "Adam Fast",
+        "slug": "adam-fast"
+    },
+    "model": "lore.speaker",
+    "pk": 38
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:22:03.392Z",
+        "prenom": "Chris",
+        "people": "chrismcavoy",
+        "pyvideo_pk": null,
+        "people_photo": "https://secure.gravatar.com/avatar/7b496f4e0e18279ffeb75ab1a3edea7c?s=40&d=mm",
+        "people_finding": "http://del.icio.us/mcavoy76<br>http://www.djangosites.org/author/chrismcavoy/<br>http://www.djangosnippets.org/users/cmcavoy/<br>http://www.facebook.com/profile.php?id=722505632<br>http://flickr.com/photos/mcavoys/<br>http://www.linkedin.com/profile?viewProfile=&key=4208517",
+        "full_name": "Chris McAvoy",
+        "slug": "chris-mcavoy"
+    },
+    "model": "lore.speaker",
+    "pk": 39
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:22:05.959Z",
+        "prenom": "Chris",
+        "people": "moffitcb",
+        "pyvideo_pk": null,
+        "people_photo": "https://secure.gravatar.com/avatar/3b3f60cb7e572ff1566453468f287ca4?s=40&d=mm",
+        "people_finding": "http://www.djangosites.org/s/www-satchmoproject-com/<br>http://www.djangosnippets.org/users/chris/",
+        "full_name": "Chris Moffitt",
+        "slug": "chris-moffitt"
+    },
+    "model": "lore.speaker",
+    "pk": 40
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:22:09.847Z",
+        "prenom": "David",
+        "people": "dgouldin",
+        "pyvideo_pk": null,
+        "people_photo": "https://secure.gravatar.com/avatar/4d35fe1196f83bef3f8c5f80b1052cc9?d=mm&s=40",
+        "people_finding": "http://delicious.com/dgouldin<br>http://www.djangosnippets.org/users/dgouldin/<br>http://www.facebook.com/profile.php?id=519383432<br>http://www.flickr.com/photos/30272122@N00/<br>http://www.twitter.com/dgouldin",
+        "full_name": "David Gouldin",
+        "slug": "david-gouldin"
+    },
+    "model": "lore.speaker",
+    "pk": 41
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:22:20.521Z",
+        "prenom": "Shawn",
+        "people": "shawnr",
+        "pyvideo_pk": null,
+        "people_photo": "https://secure.gravatar.com/avatar/01607fe417d6c7affa97944f87638d60?s=40&d=mm",
+        "people_finding": "http://www.djangosites.org/author/shawnr/",
+        "full_name": "Shawn Rider",
+        "slug": "shawn-rider"
+    },
+    "model": "lore.speaker",
+    "pk": 42
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:22:49.255Z",
+        "prenom": "Ben",
+        "people": "bslavin",
+        "pyvideo_pk": null,
+        "people_photo": "https://secure.gravatar.com/avatar/cd3c21311e8f847be0bec77678198358?d=mm&s=40",
+        "people_finding": "https://www.facebook.com/benslavin<br>https://github.com/benslavin<br>http://www.linkedin.com/in/benslavin<br>https://twitter.com/benslavin",
+        "full_name": "Ben Slavin",
+        "slug": "ben-slavin"
+    },
+    "model": "lore.speaker",
+    "pk": 43
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:22:50.598Z",
+        "prenom": "Brian",
+        "people": "luftyluft",
+        "pyvideo_pk": null,
+        "people_photo": "https://secure.gravatar.com/avatar/2768fc2f40175b02ef61d17ea97a7863?s=40&d=mm",
+        "people_finding": "http://del.icio.us/kingoflunnova<br>http://www.linkedin.com/in/brianluft<br>http://twitter.com/unbracketed",
+        "full_name": "Brian Luft",
+        "slug": "brian-luft"
+    },
+    "model": "lore.speaker",
+    "pk": 44
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:22:53.548Z",
+        "prenom": "Cody",
+        "people": "codysacoder",
+        "pyvideo_pk": null,
+        "people_photo": "https://secure.gravatar.com/avatar/db17092663e716b08de72e936ed082c7?s=40&d=mm",
+        "people_finding": "",
+        "full_name": "Cody Soyland",
+        "slug": "cody-soyland"
+    },
+    "model": "lore.speaker",
+    "pk": 45
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:22:54.842Z",
+        "prenom": "Dimitris",
+        "people": "glezos",
+        "pyvideo_pk": null,
+        "people_photo": "https://secure.gravatar.com/avatar/2930bfe5cff549e49bd77dc7f957e40f?d=mm&s=40",
+        "people_finding": "http://del.icio.us/glezos<br>http://www.linkedin.com/in/glezos<br>http://twitter.com/glezos",
+        "full_name": "Dimitris Glezos",
+        "slug": "dimitris-glezos"
+    },
+    "model": "lore.speaker",
+    "pk": 46
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:22:57.055Z",
+        "prenom": "Colin",
+        "people": "copelco",
+        "pyvideo_pk": null,
+        "people_photo": "https://secure.gravatar.com/avatar/1f046f97273570c7819a7e42507ef1c9?d=mm&s=40",
+        "people_finding": "http://www.linkedin.com/in/colincopeland",
+        "full_name": "Colin Copeland",
+        "slug": "colin-copeland"
+    },
+    "model": "lore.speaker",
+    "pk": 47
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:22:58.134Z",
+        "prenom": "James",
+        "people": "jamessocol",
+        "pyvideo_pk": null,
+        "people_photo": "https://secure.gravatar.com/avatar/327971d6b5d9c5c4cde17ecaf696f881?s=40&d=mm",
+        "people_finding": "https://github.com/jsocol<br>http://www.linkedin.com/in/jamessocol<br>https://twitter.com/jamessocol",
+        "full_name": "James Socol",
+        "slug": "james-socol"
+    },
+    "model": "lore.speaker",
+    "pk": 48
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:23:00.290Z",
+        "prenom": "Issac",
+        "people": "issackelly",
+        "pyvideo_pk": null,
+        "people_photo": "https://secure.gravatar.com/avatar/eb3b5ca076e590e95e402d2a0132dffa?s=40&d=mm",
+        "people_finding": "http://delicious.com/issackelly<br>http://twitter.com/issackelly",
+        "full_name": "Issac Kelly",
+        "slug": "issac-kelly"
+    },
+    "model": "lore.speaker",
+    "pk": 49
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:23:01.656Z",
+        "prenom": "Joe",
+        "people": "joejaz",
+        "pyvideo_pk": null,
+        "people_photo": "https://secure.gravatar.com/avatar/24cf1adb01f692aa0e672cb48b93d173?s=40&d=mm",
+        "people_finding": "https://bitbucket.org/JoeJasinski<br>https://github.com/JoeJasinski<br>http://www.linkedin.com/profile/view?id=27505892&trk=tab_pro<br>http://stackoverflow.com/users/226081/joe-j<br>https://twitter.com/#!/JoeJJasinski",
+        "full_name": "Joe Jasinski",
+        "slug": "joe-jasinski"
+    },
+    "model": "lore.speaker",
+    "pk": 50
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:23:02.914Z",
+        "prenom": "Jonas",
+        "people": "ojii",
+        "pyvideo_pk": null,
+        "people_photo": "https://secure.gravatar.com/avatar/0f0907f4d7a47906ef8e346156c4ffcb?s=40&d=mm",
+        "people_finding": "https://bitbucket.org/ojii<br>https://github.com/ojii<br>http://stackoverflow.com/users/628375/ojii<br>https://www.twitter.com/ojiidotch",
+        "full_name": "Jonas Obrist",
+        "slug": "jonas-obrist"
+    },
+    "model": "lore.speaker",
+    "pk": 51
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:23:06.010Z",
+        "prenom": "Joshua",
+        "people": "jag",
+        "pyvideo_pk": null,
+        "people_photo": "https://secure.gravatar.com/avatar/893dfbf1c1073268739f796939bf7a79?s=40&d=mm",
+        "people_finding": "http://www.facebook.com/jaginsberg<br>http://www.linkedin.com/in/joshuaginsberg<br>http://www.twitter.com/j00bar",
+        "full_name": "Joshua Ginsberg",
+        "slug": "joshua-ginsberg"
+    },
+    "model": "lore.speaker",
+    "pk": 52
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:23:07.980Z",
+        "prenom": "Michael",
+        "people": "mtrythall",
+        "pyvideo_pk": null,
+        "people_photo": "https://secure.gravatar.com/avatar/343be50df57075055b61a622443584d4?d=mm&s=40",
+        "people_finding": "http://twitter.com/mtrythall",
+        "full_name": "Michael Trythall",
+        "slug": "michael-trythall"
+    },
+    "model": "lore.speaker",
+    "pk": 53
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:23:10.256Z",
+        "prenom": "Sean",
+        "people": "playpauseandstop",
+        "pyvideo_pk": null,
+        "people_photo": "https://secure.gravatar.com/avatar/2142f28d49768f2967d5d2f1a02e38b8?s=40&d=mm",
+        "people_finding": "http://del.icio.us/playpauseandstop<br>http://www.facebook.com/playpauseandstop<br>https://github.com/playpauseandstop<br>http://twitter.com/playpausenstop",
+        "full_name": "Sean O",
+        "slug": "sean-o"
+    },
+    "model": "lore.speaker",
+    "pk": 54
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:23:11.251Z",
+        "prenom": "Tareque",
+        "people": "tarequeh",
+        "pyvideo_pk": null,
+        "people_photo": "https://secure.gravatar.com/avatar/dddf962bfee445af19ef102bef10b546?s=40&d=mm",
+        "people_finding": "http://www.linkedin.com/in/tarequeh<br>http://twitter.com/tarequeh",
+        "full_name": "Tareque Hossain",
+        "slug": "tareque-hossain"
+    },
+    "model": "lore.speaker",
+    "pk": 55
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:23:12.250Z",
+        "prenom": "Terry",
+        "people": "towen",
+        "pyvideo_pk": null,
+        "people_photo": "https://secure.gravatar.com/avatar/3f486372ed7c8ca47569dc3a41a299fe?s=40&d=mm",
+        "people_finding": "http://www.facebook.com/iknowmac<br>http://www.linkedin.com/in/terryowen",
+        "full_name": "Terry J. Owen",
+        "slug": "terry-j-owen"
+    },
+    "model": "lore.speaker",
+    "pk": 56
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:23:13.017Z",
+        "prenom": "Yann",
+        "people": "yml",
+        "pyvideo_pk": null,
+        "people_photo": "https://secure.gravatar.com/avatar/ec67009b0d799b562e08797860d93233?d=mm&s=40",
+        "people_finding": "",
+        "full_name": "Yann Malet",
+        "slug": "yann-malet"
+    },
+    "model": "lore.speaker",
+    "pk": 57
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:23:39.228Z",
+        "prenom": "Sean",
+        "people": "seanroth",
+        "pyvideo_pk": null,
+        "people_photo": "https://secure.gravatar.com/avatar/2142f28d49768f2967d5d2f1a02e38b8?s=40&d=mm",
+        "people_finding": "http://www.facebook.com/profile.php?id=1051770031<br>http://pownce.com/seanroth<br>http://twitter.com/seanroth",
+        "full_name": "Sean O",
+        "slug": "sean-o"
+    },
+    "model": "lore.speaker",
+    "pk": 58
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:23:41.137Z",
+        "prenom": "",
+        "people": "",
+        "pyvideo_pk": null,
+        "people_photo": "",
+        "people_finding": "",
+        "full_name": "Tom Eastman",
+        "slug": "tom-eastman"
+    },
+    "model": "lore.speaker",
+    "pk": 59
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:23:41.813Z",
+        "prenom": "",
+        "people": "",
+        "pyvideo_pk": null,
+        "people_photo": "",
+        "people_finding": "",
+        "full_name": "Selena Deckelmann",
+        "slug": "selena-deckelmann"
+    },
+    "model": "lore.speaker",
+    "pk": 60
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:23:44.103Z",
+        "prenom": "",
+        "people": "",
+        "pyvideo_pk": null,
+        "people_photo": "",
+        "people_finding": "",
+        "full_name": "Kenneth Reitz",
+        "slug": "kenneth-reitz"
+    },
+    "model": "lore.speaker",
+    "pk": 61
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:23:44.660Z",
+        "prenom": "",
+        "people": "",
+        "pyvideo_pk": null,
+        "people_photo": "",
+        "people_finding": "",
+        "full_name": "Ian Bicking",
+        "slug": "ian-bicking"
+    },
+    "model": "lore.speaker",
+    "pk": 62
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:23:46.048Z",
+        "prenom": "",
+        "people": "",
+        "pyvideo_pk": null,
+        "people_photo": "",
+        "people_finding": "",
+        "full_name": "Justin Myles Holmes",
+        "slug": "justin-myles-holmes"
+    },
+    "model": "lore.speaker",
+    "pk": 63
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:23:49.676Z",
+        "prenom": "",
+        "people": "",
+        "pyvideo_pk": null,
+        "people_photo": "",
+        "people_finding": "",
+        "full_name": "Avi Bryant",
+        "slug": "avi-bryant"
+    },
+    "model": "lore.speaker",
+    "pk": 64
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:23:52.978Z",
+        "prenom": "",
+        "people": "",
+        "pyvideo_pk": null,
+        "people_photo": "",
+        "people_finding": "",
+        "full_name": "Adam Miskiewicz",
+        "slug": "adam-miskiewicz"
+    },
+    "model": "lore.speaker",
+    "pk": 65
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:23:53.823Z",
+        "prenom": "",
+        "people": "",
+        "pyvideo_pk": null,
+        "people_photo": "",
+        "people_finding": "",
+        "full_name": "Brian Moloney",
+        "slug": "brian-moloney"
+    },
+    "model": "lore.speaker",
+    "pk": 66
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:24:05.383Z",
+        "prenom": "",
+        "people": "",
+        "pyvideo_pk": null,
+        "people_photo": "",
+        "people_finding": "",
+        "full_name": "Christophe Pettus",
+        "slug": "christophe-pettus"
+    },
+    "model": "lore.speaker",
+    "pk": 67
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:24:07.797Z",
+        "prenom": "",
+        "people": "",
+        "pyvideo_pk": null,
+        "people_photo": "",
+        "people_finding": "",
+        "full_name": "Chris McDonough",
+        "slug": "chris-mcdonough"
+    },
+    "model": "lore.speaker",
+    "pk": 68
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:24:15.395Z",
+        "prenom": "Sean",
+        "people": "seanoc",
+        "pyvideo_pk": null,
+        "people_photo": "https://secure.gravatar.com/avatar/25b282d577daa60bb42579fb72c43106?d=mm&s=40",
+        "people_finding": "http://del.icio.us/seanoc<br>http://marist.facebook.com/profile.php?id=18100914<br>http://github.com/seanoc<br>https://plus.google.com/102222019090973086246<br>http://www.linkedin.com/in/seanoc<br>http://stackoverflow.com/users/40817/seanoc<br>http://twitter.com/theSeanOC",
+        "full_name": "Sean O",
+        "slug": "sean-o"
+    },
+    "model": "lore.speaker",
+    "pk": 69
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:24:17.537Z",
+        "prenom": "",
+        "people": "",
+        "pyvideo_pk": null,
+        "people_photo": "",
+        "people_finding": "",
+        "full_name": "Tracy Osborn",
+        "slug": "tracy-osborn"
+    },
+    "model": "lore.speaker",
+    "pk": 70
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:24:19.680Z",
+        "prenom": "",
+        "people": "",
+        "pyvideo_pk": null,
+        "people_photo": "",
+        "people_finding": "",
+        "full_name": "Mjumbe Poe",
+        "slug": "mjumbe-poe"
+    },
+    "model": "lore.speaker",
+    "pk": 71
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:24:21.417Z",
+        "prenom": "",
+        "people": "",
+        "pyvideo_pk": null,
+        "people_photo": "",
+        "people_finding": "",
+        "full_name": "Katharine Jarmul",
+        "slug": "katharine-jarmul"
+    },
+    "model": "lore.speaker",
+    "pk": 72
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:24:23.644Z",
+        "prenom": "",
+        "people": "",
+        "pyvideo_pk": null,
+        "people_photo": "",
+        "people_finding": "",
+        "full_name": "Miguel Araujo",
+        "slug": "miguel-araujo"
+    },
+    "model": "lore.speaker",
+    "pk": 73
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:24:27.962Z",
+        "prenom": "",
+        "people": "",
+        "pyvideo_pk": null,
+        "people_photo": "",
+        "people_finding": "",
+        "full_name": "Mark Lavin",
+        "slug": "mark-lavin"
+    },
+    "model": "lore.speaker",
+    "pk": 74
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:24:49.395Z",
+        "prenom": "Sean",
+        "people": "meflyup",
+        "pyvideo_pk": null,
+        "people_photo": "https://secure.gravatar.com/avatar/25b282d577daa60bb42579fb72c43106?s=40&d=mm",
+        "people_finding": "",
+        "full_name": "Sean O",
+        "slug": "sean-o"
+    },
+    "model": "lore.speaker",
+    "pk": 75
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:25:03.151Z",
+        "prenom": "Sean",
+        "people": "liushu2000",
+        "pyvideo_pk": null,
+        "people_photo": "https://secure.gravatar.com/avatar/25b282d577daa60bb42579fb72c43106?s=40&d=mm",
+        "people_finding": "",
+        "full_name": "Sean O",
+        "slug": "sean-o"
+    },
+    "model": "lore.speaker",
+    "pk": 76
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:25:08.613Z",
+        "prenom": "Sean",
+        "people": "liushu2000",
+        "pyvideo_pk": null,
+        "people_photo": "https://secure.gravatar.com/avatar/25b282d577daa60bb42579fb72c43106?s=40&d=mm",
+        "people_finding": "",
+        "full_name": "Sean O",
+        "slug": "sean-o"
+    },
+    "model": "lore.speaker",
+    "pk": 77
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:25:26.355Z",
+        "prenom": "",
+        "people": "",
+        "pyvideo_pk": null,
+        "people_photo": "",
+        "people_finding": "",
+        "full_name": "Mike Biglan",
+        "slug": "mike-biglan"
+    },
+    "model": "lore.speaker",
+    "pk": 78
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:25:26.930Z",
+        "prenom": "",
+        "people": "",
+        "pyvideo_pk": null,
+        "people_photo": "",
+        "people_finding": "",
+        "full_name": "Paul McMillan",
+        "slug": "paul-mcmillan"
+    },
+    "model": "lore.speaker",
+    "pk": 79
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:25:27.478Z",
+        "prenom": "",
+        "people": "",
+        "pyvideo_pk": null,
+        "people_photo": "",
+        "people_finding": "",
+        "full_name": "Noah Silas",
+        "slug": "noah-silas"
+    },
+    "model": "lore.speaker",
+    "pk": 80
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:25:28.325Z",
+        "prenom": "",
+        "people": "",
+        "pyvideo_pk": null,
+        "people_photo": "",
+        "people_finding": "",
+        "full_name": "Jeff Balogh",
+        "slug": "jeff-balogh"
+    },
+    "model": "lore.speaker",
+    "pk": 81
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:25:29.265Z",
+        "prenom": "",
+        "people": "",
+        "pyvideo_pk": null,
+        "people_photo": "",
+        "people_finding": "",
+        "full_name": "Kyle Rimkus",
+        "slug": "kyle-rimkus"
+    },
+    "model": "lore.speaker",
+    "pk": 82
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:25:29.945Z",
+        "prenom": "",
+        "people": "",
+        "pyvideo_pk": null,
+        "people_photo": "",
+        "people_finding": "",
+        "full_name": "Adam Nelson",
+        "slug": "adam-nelson"
+    },
+    "model": "lore.speaker",
+    "pk": 83
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:25:30.538Z",
+        "prenom": "",
+        "people": "",
+        "pyvideo_pk": null,
+        "people_photo": "",
+        "people_finding": "",
+        "full_name": "Julia Grace",
+        "slug": "julia-grace"
+    },
+    "model": "lore.speaker",
+    "pk": 84
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:25:31.170Z",
+        "prenom": "",
+        "people": "",
+        "pyvideo_pk": null,
+        "people_photo": "",
+        "people_finding": "",
+        "full_name": "Adam Jenkins",
+        "slug": "adam-jenkins"
+    },
+    "model": "lore.speaker",
+    "pk": 85
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:25:31.813Z",
+        "prenom": "",
+        "people": "",
+        "pyvideo_pk": null,
+        "people_photo": "",
+        "people_finding": "",
+        "full_name": "Amjith Ramanujam",
+        "slug": "amjith-ramanujam"
+    },
+    "model": "lore.speaker",
+    "pk": 86
+},
+{
+    "fields": {
+        "last_updated": "2014-09-22T17:25:50.766Z",
+        "prenom": "Sean",
+        "people": "seanos",
+        "pyvideo_pk": null,
+        "people_photo": "https://secure.gravatar.com/avatar/25b282d577daa60bb42579fb72c43106?s=40&d=mm",
+        "people_finding": "",
+        "full_name": "Sean O",
+        "slug": "sean-o"
+    },
+    "model": "lore.speaker",
+    "pk": 87
+}
+]
