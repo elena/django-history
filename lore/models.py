@@ -97,6 +97,11 @@ class Speaker(models.Model):
                               help_text="Name for casual reference.")
     people = models.CharField(_('Django people username'), max_length=30,
                               blank=True, null=True)
+    people_photo = models.URLField(_('Django people gravatar'),
+                                   blank=True, null=True)
+    people_finding = models.TextField(_('Django people details'),
+                                      blank=True, null=True)
+
     pyvideo_pk = models.IntegerField(_('PyVideo pk'), blank=True, null=True,
                                      help_text="ID number used by PyVideo")
     slug = models.SlugField(max_length=64)
