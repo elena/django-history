@@ -1,0 +1,295 @@
+[
+{
+    "fields": {
+        "website": "http://djangocon.us/",
+        "name": "DjangoCon US",
+        "slug": "djangocon-us"
+    },
+    "model": "events.series",
+    "pk": 1
+},
+{
+    "fields": {
+        "website": "http://djangocon.eu/",
+        "name": "DjangoCon EU",
+        "slug": "djangocon-eu"
+    },
+    "model": "events.series",
+    "pk": 2
+},
+{
+    "fields": {
+        "website": "http://www.djangocon.com.au/",
+        "name": "DjangoCon AU",
+        "slug": "djangocon-au"
+    },
+    "model": "events.series",
+    "pk": 3
+},
+{
+    "fields": {
+        "website": "http://2013.pycon-au.org/programme/schedule/friday",
+        "pyvideo_category_title": "DjangoCon AU 2013",
+        "name": "DjangoCon AU 2013",
+        "series": 3,
+        "colour": "",
+        "date_start": "2013-07-05T08:00:00Z",
+        "location_description": "Hobart, Tasmania, Australia",
+        "longitude": null,
+        "is_live": true,
+        "date_end": "2013-07-05T17:45:00Z",
+        "latitude": null,
+        "series_number": "2013",
+        "slug": "djangocon-au-2013"
+    },
+    "model": "events.event",
+    "pk": 1
+},
+{
+    "fields": {
+        "website": "http://2014.pycon-au.org/programme/schedule/friday",
+        "pyvideo_category_title": "DjangoCon AU 2014",
+        "name": "DjangoCon AU 2014",
+        "series": 3,
+        "colour": "",
+        "date_start": "2014-08-01T07:30:00Z",
+        "location_description": "Brisbane, Qld, Australia",
+        "longitude": null,
+        "is_live": false,
+        "date_end": "2014-08-01T17:00:00Z",
+        "latitude": null,
+        "series_number": "2013",
+        "slug": "djangocon-au-2014"
+    },
+    "model": "events.event",
+    "pk": 2
+},
+{
+    "fields": {
+        "website": "http://2014.djangocon.eu/",
+        "pyvideo_category_title": "",
+        "name": "DjangoCon EU 2014",
+        "series": 2,
+        "colour": "",
+        "date_start": "2014-05-13T09:30:00Z",
+        "location_description": "L'\u00eele des Embiez, C\u00f4te d'Azur, France",
+        "longitude": null,
+        "is_live": true,
+        "date_end": "2014-05-17T16:45:00Z",
+        "latitude": null,
+        "series_number": "2014",
+        "slug": "djangocon-eu-2014"
+    },
+    "model": "events.event",
+    "pk": 3
+},
+{
+    "fields": {
+        "website": "http://2013.djangocon.eu/",
+        "pyvideo_category_title": "",
+        "name": "DjangoCon EU 2013",
+        "series": 2,
+        "colour": "",
+        "date_start": "2013-05-15T09:00:00Z",
+        "location_description": "Warsaw, Poland",
+        "longitude": null,
+        "is_live": true,
+        "date_end": "2013-05-19T18:00:00Z",
+        "latitude": null,
+        "series_number": "2013",
+        "slug": "djangocon-eu-2013"
+    },
+    "model": "events.event",
+    "pk": 4
+},
+{
+    "fields": {
+        "website": "http://2012.djangocon.eu/",
+        "pyvideo_category_title": "",
+        "name": "DjangoCon EU 2012",
+        "series": 2,
+        "colour": "",
+        "date_start": "2012-04-04T09:00:00Z",
+        "location_description": "Zurich, Switzerland",
+        "longitude": null,
+        "is_live": true,
+        "date_end": "2012-04-06T18:00:00Z",
+        "latitude": null,
+        "series_number": "2012",
+        "slug": "djangocon-eu-2012"
+    },
+    "model": "events.event",
+    "pk": 5
+},
+{
+    "fields": {
+        "website": "http://2011.djangocon.eu/",
+        "pyvideo_category_title": "DjangoCon EU 2011",
+        "name": "DjangoCon EU 2011",
+        "series": 2,
+        "colour": "",
+        "date_start": "2011-04-06T09:30:00Z",
+        "location_description": "Amsterdam, Netherlands",
+        "longitude": null,
+        "is_live": true,
+        "date_end": "2011-04-07T17:30:00Z",
+        "latitude": null,
+        "series_number": "2011",
+        "slug": "djangocon-eu-2011"
+    },
+    "model": "events.event",
+    "pk": 6
+},
+{
+    "fields": {
+        "website": "http://lanyrd.com/2010/djangocon-eu/",
+        "pyvideo_category_title": "DjangoCon EU 2010",
+        "name": "DjangoCon EU 2010",
+        "series": 2,
+        "colour": "",
+        "date_start": "2010-05-24T09:15:00Z",
+        "location_description": "Berlin, Germany",
+        "longitude": null,
+        "is_live": true,
+        "date_end": "2010-05-26T17:30:00Z",
+        "latitude": null,
+        "series_number": "2010",
+        "slug": "djangocon-eu-2010"
+    },
+    "model": "events.event",
+    "pk": 7
+},
+{
+    "fields": {
+        "website": "http://lanyrd.com/2008/djangocon/",
+        "pyvideo_category_title": "",
+        "name": "DjangoCon US 2008",
+        "series": 1,
+        "colour": "",
+        "date_start": "2008-09-06T09:00:00Z",
+        "location_description": "",
+        "longitude": null,
+        "is_live": true,
+        "date_end": "2008-09-07T17:00:00Z",
+        "latitude": null,
+        "series_number": "2008",
+        "slug": "djangocon-us-2008"
+    },
+    "model": "events.event",
+    "pk": 8
+},
+{
+    "fields": {
+        "website": "http://lanyrd.com/2009/djangocon-us/",
+        "pyvideo_category_title": "DjangoCon 2009",
+        "name": "DjangoCon US 2009",
+        "series": 1,
+        "colour": "",
+        "date_start": "2009-09-08T08:00:00Z",
+        "location_description": "",
+        "longitude": null,
+        "is_live": true,
+        "date_end": "2009-09-12T19:00:00Z",
+        "latitude": null,
+        "series_number": "2009",
+        "slug": "djangocon-us-2009"
+    },
+    "model": "events.event",
+    "pk": 9
+},
+{
+    "fields": {
+        "website": "http://lanyrd.com/2010/djangocon-us/",
+        "pyvideo_category_title": "DjangoCon 2010",
+        "name": "DjangoCon US 2010",
+        "series": 1,
+        "colour": "",
+        "date_start": "2010-09-07T09:00:00Z",
+        "location_description": "",
+        "longitude": null,
+        "is_live": true,
+        "date_end": "2010-09-09T12:00:00Z",
+        "latitude": null,
+        "series_number": "2010",
+        "slug": "djangocon-us-2010"
+    },
+    "model": "events.event",
+    "pk": 10
+},
+{
+    "fields": {
+        "website": "http://2011.djangocon.us/",
+        "pyvideo_category_title": "DjangoCon 2011",
+        "name": "DjangoCon US 2011",
+        "series": 1,
+        "colour": "",
+        "date_start": "2011-09-06T09:00:00Z",
+        "location_description": "",
+        "longitude": null,
+        "is_live": true,
+        "date_end": "2011-09-08T18:00:00Z",
+        "latitude": null,
+        "series_number": "2011",
+        "slug": "djangocon-us-2011"
+    },
+    "model": "events.event",
+    "pk": 11
+},
+{
+    "fields": {
+        "website": "http://2012.djangocon.us/",
+        "pyvideo_category_title": "DjangoCon 2012",
+        "name": "DjangoCon US 2012",
+        "series": 1,
+        "colour": "",
+        "date_start": "2012-09-04T09:00:00Z",
+        "location_description": "",
+        "longitude": null,
+        "is_live": true,
+        "date_end": "2012-09-06T18:00:00Z",
+        "latitude": null,
+        "series_number": "2012",
+        "slug": "djangocon-us-2012"
+    },
+    "model": "events.event",
+    "pk": 12
+},
+{
+    "fields": {
+        "website": "http://lanyrd.com/2013/djangocon/",
+        "pyvideo_category_title": "",
+        "name": "DjangoCon US 2013",
+        "series": 1,
+        "colour": "",
+        "date_start": "2013-09-02T09:00:00Z",
+        "location_description": "",
+        "longitude": null,
+        "is_live": true,
+        "date_end": "2013-09-04T17:00:00Z",
+        "latitude": null,
+        "series_number": "2013",
+        "slug": "djangocon-us-2013"
+    },
+    "model": "events.event",
+    "pk": 13
+},
+{
+    "fields": {
+        "website": "http://www.djangocon.us/",
+        "pyvideo_category_title": "",
+        "name": "DjangoCon US 2014",
+        "series": 1,
+        "colour": "",
+        "date_start": "2013-09-02T09:00:00Z",
+        "location_description": "",
+        "longitude": null,
+        "is_live": true,
+        "date_end": "2014-09-04T16:30:00Z",
+        "latitude": null,
+        "series_number": "2014",
+        "slug": "djangocon-us-2014"
+    },
+    "model": "events.event",
+    "pk": 14
+}
+]
