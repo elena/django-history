@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+import reversion
 from django.db import models
 from django.core.urlresolvers import reverse
 from django.utils.translation import ugettext_lazy as _
@@ -16,6 +17,8 @@ class Category(models.Model):
 
     def __str__(self):
         return self.name
+
+reversion.register(Category)
 
 
 class Talk(models.Model):
@@ -86,6 +89,8 @@ class Talk(models.Model):
     def get_absolute_url(self):
         return reverse('talks:talk_detail', kwargs={'slug': self.slug})
 
+reversion.register(Talk)
+
 
 class Speaker(models.Model):
     """ There should nearly certainly should be a separate module for speakers.
@@ -118,3 +123,5 @@ class Speaker(models.Model):
 
     def save(self, *args, **kwargs):
         super(Speaker, self).save(*args, **kwargs)
+
+reversion.register(Speaker)
