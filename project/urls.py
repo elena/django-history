@@ -4,13 +4,18 @@ from django.conf.urls import include, patterns
 from django.contrib import admin
 
 
-urlpatterns = patterns('',
+urlpatterns = patterns(
+    '',
+
 
     # Talks
     (r'^', include('lore.urls')),
 
     # Events
     (r'^events/', include('events.urls')),
+
+    # Content
+    (r'^content/', include('contents.urls')),
 
 
     # Django Admin
