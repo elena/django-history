@@ -61,6 +61,8 @@ class Talk(models.Model):
     # """ Detail from Youtube """
     youtube_id = models.CharField(_('Youtube id'), max_length=32, unique=True,
                                   null=True, blank=True)
+    youtube_channel_id = models.CharField(_('Youtube channel id'),
+                                          max_length=32, null=True, blank=True)
     youtube_title = models.TextField(_('Youtube title'), max_length=256,
                                      null=True, blank=True)
     youtube_summary = models.TextField(_('Youtube summary'),
@@ -69,8 +71,12 @@ class Talk(models.Model):
                                        null=True, blank=True)
     youtube_views = models.IntegerField(_('Youtube views'),
                                         null=True, blank=True)
+    youtube_duration = models.IntegerField(_('Youtube duration'),
+                                        null=True, blank=True)
     youtube_thumbnail = models.URLField(_('Youtube thumbnail'),
                                         null=True, blank=True)
+    youtube_copyright = models.CharField(_('Youtube copyright'), max_length=256,
+                                         null=True, blank=True)
 
     objects = querysets.TalkManager()
 
