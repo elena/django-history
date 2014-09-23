@@ -24,6 +24,7 @@ class Talk(models.Model):
     speakers = models.ManyToManyField('lore.Speaker')
     tags = TaggableManager(_('Tags'))
     slug = models.SlugField(max_length=64)
+    view_count = models.IntegerField(_('View count'))
 
 
     categories = models.ManyToManyField('lore.Category',
@@ -37,6 +38,7 @@ class Talk(models.Model):
     abstract = models.TextField(_('Abstract'), null=True, blank=True)
     speaker_bio = models.TextField(_('Speaker bio'), null=True, blank=True)
     conference_url = models.URLField(_('Conference url'), null=True, blank=True)
+    language = models.TextField(_('Language'), null=True, blank=True)
 
     # """ Detail from PyVideo """
     pyvideo_pk = models.IntegerField(_('PyVideo pk'), unique=True,
@@ -49,8 +51,12 @@ class Talk(models.Model):
                                        null=True, blank=True)
     pyvideo_tags = models.TextField(_('PyVideo tags'),
                                     null=True, blank=True)
+    pyvideo_source_url = models.URLField(_('PyVideo source url'),
+                                        null=True, blank=True)
     pyvideo_video_url = models.URLField(_('PyVideo hosted url'),
                                         null=True, blank=True)
+    pyvideo_copyright = models.CharField(_('PyVideo copyright'), max_length=256,
+                                         null=True, blank=True)
 
     # """ Detail from Youtube """
     youtube_id = models.CharField(_('Youtube id'), max_length=32, unique=True,
