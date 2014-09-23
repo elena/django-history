@@ -37,6 +37,8 @@ INSTALLED_APPS = (
     'crispy_forms',
     'reversion',
     'taggit',
+
+    'api',
     'contents',
     'events',
     'lore',
