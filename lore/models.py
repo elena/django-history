@@ -74,6 +74,8 @@ class Talk(models.Model):
                                        null=True, blank=True)
     youtube_views = models.IntegerField(_('Youtube views'),
                                         null=True, blank=True)
+    youtube_likes = models.IntegerField(_('Youtube likes'),
+                                        null=True, blank=True)
     youtube_duration = models.IntegerField(_('Youtube duration'),
                                         null=True, blank=True)
     youtube_thumbnail = models.URLField(_('Youtube thumbnail'),
