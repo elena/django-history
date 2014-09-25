@@ -1,12 +1,15 @@
 # -*- coding: utf-8 -*-
 from django.conf import settings
-from django.conf.urls import include, patterns
+from django.conf.urls import include, patterns, url
 from django.contrib import admin
+from lore.views import HomePageView
 
 
 urlpatterns = patterns(
     '',
 
+    # Home
+    url(r'^$', HomePageView.as_view(), name='home'),
 
     # Talks
     (r'^', include('lore.urls')),
