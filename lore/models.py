@@ -123,6 +123,68 @@ class Speaker(models.Model):
     def get_absolute_url(self):
         return reverse('talks:speaker_detail', kwargs={'slug': self.slug})
 
+    def get_people_url(self):
+        return 'https://people.djangoproject.com/{0}'.format(self.people)
+
+    def get_existing_speaker_by_full_name(self, full_name):
+        speakers_names = [x.lower() for x in Speaker.objects.all().values_list('full_name', flat=True)]
+        if full_name in speakers_names:
+            speakers = Speaker.objects.filter(full_name__istartswith=full_name)
+            if len(speakers) == 1:
+                return speakers[0]
+            elif len(speakers) == 0:
+                return False
+            elif len(speakers) > 1:
+                raise Exception("{0} results found!".format(len(speakers)))
+
+    def get_existing_speaker_by_people(self, people_username):
+        if people_username in Speaker.objects.all().values_list('people'):
+            return Speaker.objects.get(people=people_username)
+        else:
+            return False
+
+    def search_people_get_or_create_speaker(self, full_name):
+        """Connect to Django People website and searches and scrapes for people
+        details.
+
+        Accepts `full_name` string, returns :py:dict: of search results.
+        """
+        url = 'https://people.djangoproject.com/search/?q={0}'.format(full_name.replace(" ", "+"))
+        request = requests.get(url)
+        soup = BeautifulSoup(request.content)
+        vcards = soup.findAll("li", { "class" : "vcard" })
+        if len(vcards) == 1:
+            for vcard in soup.findAll("li", { "class" : "vcard" }):
+                people_username = vcard.findAll("a", { "class" : "url fn n" })[0].attrs['href'].strip("/")
+                if self.get_existing_speaker_by_people(people_username):
+                    self = self.get_existing_speaker_by_people(people_username)
+                self.people = people_username
+                self.photo = soup.findAll("img", { "class" : "main photo" })[0].attrs['src']
+                self.prenom = soup.findAll("span", { "class" : "given-name" })[0].renderContents()
+                self.save()
+        elif len(vcards) == 0:
+            return False
+        elif len(vcards) > 1:
+            raise Exception("{0} results found! No records created."
+                            "".format(len(vcards)))
+
+    def fetch_people_details(self, people):
+        """Connect to Django People website and scrape people details.
+        """
+        request = requests.get(self.get_people_url())
+        soup = BeautifulSoup(request.content)
+        try:
+            services = soup.findAll("ul", { "class" : "services" })[0].contents
+        except IndexError:
+            return ''
+        links = []
+        for li in services:
+            try:
+                links.append(li.contents[0].attrs['href'])
+            except: pass
+        return '' if not services else '<br>'.join(links)
+
+
     def save(self, *args, **kwargs):
         super(Speaker, self).save(*args, **kwargs)
 
