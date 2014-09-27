@@ -141,32 +141,15 @@ class Speaker(models.Model):
         """Connect to PyVideo website and scrape (or try to) PyVideo PK.
         """
         url = 'http://pyvideo.org/search?models=videos.video&q={0}'.format(self.full_name.replace(" ", "+"))
-        soup = BeautifulSoup(requests.get(url).content)
-        results = soup.findAll("a")
-        if results:
-            links = results[0].findAll('a')
-        else:
-            self.pyvideo_pk = None
-            self.save()
-            return None
-        speakers_link = []
-        for link in links:
-            if link.get('href'):
-                if 'speaker' in link.get('href'):
-                    speakers_link.append(link.get('href'))
-        if speakers_link:
-            pk = speakers_link[0].split('/')[2]
-            soup = BeautifulSoup(requests.get(self.get_pyvideo_url(pk)).content)
-            if self.full_name in str(soup.findAll('h1')[0].contents):
-                self.pyvideo_pk = pk
-                self.save()
-                return self.pyvideo_pk
-            else:
-                return pk, self.full_name, str(soup.findAll('h1')[0].contents)
-                #raise Exception("The name isn't matching the number that the basic scraper found here: {0}".format(url))
-        else:
-            self.pyvideo_pk = None
-            self.save()
+        soup = BeautifulSoup(requests.get(url).content).findAll("a")
+        if soup:
+            for link in soup:
+                if link.string == self.full_name:
+                    self.pyvideo_pk = link.get('href').split('/')[2]
+                    self.save()
+                    return self.pyvideo_pk
+        self.pyvideo_pk = None
+        self.save()
         return None
 
     def get_existing_speaker_by_people(self, people_username):
