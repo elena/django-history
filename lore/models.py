@@ -118,6 +118,9 @@ class Speaker(models.Model):
     pyvideo_pk = models.IntegerField(_('PyVideo pk'), blank=True, null=True,
                                      help_text="ID number used by PyVideo")
 
+    github = models.CharField(_('Github username'), max_length=64,
+                              blank=True, null=True)
+
     def __str__(self):
         if self.people:
             return "{0} ({1})".format(self.full_name, self.people)
