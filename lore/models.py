@@ -1,6 +1,9 @@
 # -*- coding: utf-8 -*-
 import reversion
+import requests
+from bs4 import BeautifulSoup
 from django.db import models
+from django.conf import settings
 from django.core.urlresolvers import reverse
 from django.utils.translation import ugettext_lazy as _
 from taggit.managers import TaggableManager
@@ -158,13 +161,15 @@ class Speaker(models.Model):
         else:
             return False
 
-    def search_people_get_or_create_speaker(self, full_name):
-        """Connect to Django People website and searches and scrapes for people
-        details.
+    def fetch_full_name_from_people(self):
+        """ Connects to Django People website and searches and scrapes
+        for people details if nobody by ``full_name`` currently exists.
 
-        Accepts `full_name` string, returns :py:dict: of search results.
+        Searches for ``full_name`` and then adds ``people`` username to object.
+
+        @@ TD: This method needs some work still.
         """
-        url = 'https://people.djangoproject.com/search/?q={0}'.format(full_name.replace(" ", "+"))
+        url = 'https://people.djangoproject.com/search/?q={0}'.format(self.full_name.replace(" ", "+"))
         request = requests.get(url)
         soup = BeautifulSoup(request.content)
         vcards = soup.findAll("li", { "class" : "vcard" })
@@ -191,14 +196,15 @@ class Speaker(models.Model):
         try:
             services = soup.findAll("ul", { "class" : "services" })[0].contents
         except IndexError:
-            return ''
+            return False
         links = []
         for li in services:
             try:
                 links.append(li.contents[0].attrs['href'])
             except: pass
-        return '' if not services else '<br>'.join(links)
-
+        if links:
+            self.people_finding = '<br>'.join(links)
+            self.save()
 
     def save(self, *args, **kwargs):
         super(Speaker, self).save(*args, **kwargs)
