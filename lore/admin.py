@@ -5,6 +5,10 @@ from .models import Category, Talk, Speaker
 
 class TalkAdmin(admin.ModelAdmin):
     model = Talk
+    list_display = ['event', 'title', 'pyvideo_pk', 'youtube_id', 'slug',
+                    'pyvideo_video_url', 'pyvideo_source_url']
+    list_editable = ['title']
+    list_filter = ['event', 'speakers']
     prepopulated_fields = {"slug":("title",)}
 
 admin.site.register(Talk, TalkAdmin)
