@@ -27,16 +27,17 @@ reversion.register(Category)
 class Talk(models.Model):
     is_live = models.BooleanField(_("Live"), default=True)
     event = models.ForeignKey('events.Event', null=True, blank=True)
-    speakers = models.ManyToManyField('lore.Speaker')
-    tags = TaggableManager(_('Tags'))
+    speakers = models.ManyToManyField('lore.Speaker', null=True, blank=True)
+    tags = TaggableManager(_('Tags'), blank=True)
     slug = models.SlugField(max_length=64)
-    view_count = models.IntegerField(_('View count'))
+    view_count = models.IntegerField(_('View count'), null=True, blank=True)
 
 
-    categories = models.ManyToManyField('lore.Category',
+    categories = models.ManyToManyField('lore.Category', null=True, blank=True,
                                         help_text="Curated and official 'categorisation' eg.: ORM; Optimization.")
 
     date_delivered = models.DateTimeField(_('Date delivered'),
+                                          null=True, blank=True,
                                           help_text="The date the talk was actually given/delivered/presented.")
 
     """ Detail from conference website """
