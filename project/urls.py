@@ -20,6 +20,8 @@ urlpatterns = patterns(
     # Content
     (r'^content/', include('contents.urls')),
 
+    # API
+    (r'^api/', include('api.urls')),
 
     # Django Admin
     (r'^admin/doc/', include('django.contrib.admindocs.urls')),
