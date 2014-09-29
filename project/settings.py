@@ -42,6 +42,9 @@ INSTALLED_APPS = (
     'contents',
     'events',
     'lore',
+
+    'django_coverage',
+    'django_nose',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -91,3 +94,12 @@ TEMPLATE_DIRS = (
 )
 
 CRISPY_TEMPLATE_PACK = 'bootstrap'
+
+# Use the test runner provided by nose.
+TEST_RUNNER = b'django_nose.NoseTestSuiteRunner'
+
+# Set the default args for running our tests.
+NOSE_ARGS = [
+    '--with-spec',
+    '--spec-color'
+]
