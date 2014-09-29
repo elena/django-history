@@ -12,7 +12,7 @@ urlpatterns = patterns(
     url(r'^$', HomePageView.as_view(), name='home'),
 
     # Talks
-    (r'^', include('lore.urls')),
+    (r'^talks/', include('lore.urls')),
 
     # Events
     (r'^events/', include('events.urls')),
