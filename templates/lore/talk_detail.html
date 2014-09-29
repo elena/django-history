@@ -1,0 +1,19 @@
+{% extends 'lore/base.html' %}
+
+{% block title %}
+{{ talk }}
+<div>
+  <small>{{ talk.event }}</small>
+  {# @@ TD CATEGORY #}
+</div>
+{% endblock %}
+
+{% block breadcrumbs %}
+<li><a href="{% url 'talks:talk_list' %}">Talks</a></li>
+{% endblock %}
+
+{% block content %}
+
+{{ talk.speakers.all }}
+
+{% endblock %}

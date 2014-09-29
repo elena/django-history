@@ -1,0 +1,23 @@
+{% extends 'lore/base.html' %}
+
+{% block title %}
+List of Talks
+{% endblock %}
+
+{% block breadcrumbs %}
+<li><a href="index.html">Talks</a></li>
+{% endblock %}
+
+{% block content %}
+
+<table id="results" class="table table-striped table-hover table-bordered">
+  {% for talk in object_list %}
+  <tr>
+    <td>
+      <a href="{{ talk.get_absolute_url }}">{{ talk }}</a>
+    </td>
+  </tr>
+  {% endfor %}
+</table>
+
+{% endblock %}
