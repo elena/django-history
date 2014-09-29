@@ -95,6 +95,9 @@ TEMPLATE_DIRS = (
 
 CRISPY_TEMPLATE_PACK = 'bootstrap'
 
+PYVIDEO_API_URL = 'http://pyvideo.org/api/v2'
+
+
 # Use the test runner provided by nose.
 TEST_RUNNER = b'django_nose.NoseTestSuiteRunner'
 
