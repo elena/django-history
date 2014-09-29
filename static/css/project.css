@@ -68,13 +68,19 @@ td {
     padding-top: 6px
 }
 
-.navbar-brand:before {
+.navbar>.container .navbar-brand:before {
     content: url(../img/logo-django.png);
-    margin-top: -5px;
+    margin: -8px 0 0 -115px;
     position: absolute;
-    padding-right: 32px
-    margin-left: -120px;
 }
+
+.navbar>.container .navbar-brand {
+    margin-left: 100px;
+    font-weight: bold;
+    font-size: 1.6em;
+    text-transform: uppercase;
+}
+
 
 .navbar-inverse,
 .navbar-inverse .navbar-brand,
@@ -92,9 +98,6 @@ td {
     border-color: #0c4b33;
 }
 
-.navbar-inverse .navbar-brand {
-    margin-left: 105px;
-}
 
 /*
 color: #44b78b;
