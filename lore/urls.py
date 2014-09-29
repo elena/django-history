@@ -1,12 +1,16 @@
 # -*- coding: utf-8 -*-
 from django.conf.urls import include, patterns, url
-from lore import views
-from lore.views import talk, speaker
+from .views import talk, speaker
 
 
 urls = patterns('lore.views',
 
-    url(r'^(?P<slug>\w+)$',
+    url(r'^$',
+        talk.ListView.as_view(), name='talk_list'),
+
+    url(r'^(?P<event_slug>[-_\w]+)/(?P<slug>[-_\w]+)$',
+        talk.DetailView.as_view(), name='talk_detail'),
+    url(r'^(?P<slug>[-_\w]+)$',
         talk.DetailView.as_view(), name='talk_detail'),
 
     url(r'^speaker$',
