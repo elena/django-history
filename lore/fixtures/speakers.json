@@ -1216,5 +1216,19 @@
     },
     "model": "lore.speaker",
     "pk": 87
+},
+{
+    "fields": {
+        "last_updated": "2014-09-27T13:21:39.823Z",
+        "prenom": "Me88",
+        "people": "people88",
+        "pyvideo_pk": 88,
+        "people_photo": null,
+        "people_finding": null,
+        "full_name": "My Full Name 88",
+        "slug": "my-full-name88"
+    },
+    "model": "lore.speaker",
+    "pk": 88
 }
 ]
