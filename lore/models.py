@@ -121,6 +121,9 @@ class Speaker(models.Model):
     github = models.CharField(_('Github username'), max_length=64,
                               blank=True, null=True)
 
+    class Meta(object):
+        ordering = ['full_name']
+
     def __str__(self):
         if self.people:
             return "{0} ({1})".format(self.full_name, self.people)
