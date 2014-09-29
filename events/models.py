@@ -43,6 +43,16 @@ class Event(models.Model):
 
     pyvideo_category_title = models.CharField(max_length=128,
                                               null=True, blank=True)
+    pyvideo_category_pk = models.IntegerField(max_length=128,
+                                              null=True, blank=True)
+
+    youtube_channel_id = models.CharField(_('Youtube channel id'),
+                                          max_length=32, null=True, blank=True)
+    youtube_thumbnail = models.URLField(_('Youtube photo'),
+                                        null=True, blank=True)
+
+    google_plus = models.URLField(_('Google +plus url'), null=True, blank=True)
+    """ Can be retrieved from Youtube channel"""
 
     website = models.URLField(_('Website'), null=True, blank=True)
     date_start = models.DateTimeField(_('Start date/time'),
