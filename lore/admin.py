@@ -11,6 +11,8 @@ admin.site.register(Talk, TalkAdmin)
 
 class CategoryAdmin(admin.ModelAdmin):
     model = Category
+    list_display = ['name', 'colour', 'slug']
+    list_editable = ['colour']
     prepopulated_fields = {"slug":("name",)}
 
 admin.site.register(Category, CategoryAdmin)
