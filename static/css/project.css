@@ -46,6 +46,11 @@ a {
     color: #0c4b33;
 }
 
+a:hover,
+a:active {
+    color: #44b78b;
+}
+
 td {
     vertical-align: top;
 }
@@ -89,6 +94,12 @@ td {
     font-weight: bold;
 }
 
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:active {
+    color: #F5F5F5;
+    text-decoration: underline;
+}
+
 .navbar-inverse .navbar-nav>li>a {
     text-transform: uppercase;
 }
@@ -98,6 +109,10 @@ td {
     border-color: #0c4b33;
 }
 
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:active {
+    text-decoration: underline;
+}
 
 /*
 color: #44b78b;
