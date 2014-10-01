@@ -2,14 +2,12 @@
 from __future__ import unicode_literals
 
 from django.db import models, migrations
-import taggit.managers
 
 
 class Migration(migrations.Migration):
 
     dependencies = [
         ('events', '0003_auto_20140913_1546'),
-        ('taggit', '0002_auto_20140913_1546'),
     ]
 
     operations = [
@@ -50,7 +48,6 @@ class Migration(migrations.Migration):
                 ('categories', models.ManyToManyField(help_text=b"Curated and official 'categorisation' eg.: ORM; Optimization.", to='lore.Category')),
                 ('event', models.ForeignKey(blank=True, to='events.Event', null=True)),
                 ('speakers', models.ManyToManyField(to='lore.Speaker')),
-                ('tags', taggit.managers.TaggableManager(to='taggit.Tag', through='taggit.TaggedItem', help_text='A comma-separated list of tags.', verbose_name='Tags')),
             ],
             options={
             },

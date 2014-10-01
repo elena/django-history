@@ -6,7 +6,6 @@ from django.db import models
 from django.conf import settings
 from django.core.urlresolvers import reverse
 from django.utils.translation import ugettext_lazy as _
-from taggit.managers import TaggableManager
 from . import querysets
 
 
@@ -29,7 +28,6 @@ class Talk(models.Model):
     is_live = models.BooleanField(_("Live"), default=True)
     event = models.ForeignKey('events.Event', null=True, blank=True)
     speakers = models.ManyToManyField('lore.Speaker', null=True, blank=True)
-    tags = TaggableManager(_('Tags'), blank=True)
     slug = models.SlugField(max_length=64)
     view_count = models.IntegerField(_('View count'), null=True, blank=True)
 
