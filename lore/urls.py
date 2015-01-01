@@ -8,14 +8,14 @@ urls = patterns('lore.views',
     url(r'^$',
         talk.ListView.as_view(), name='talk_list'),
 
-    url(r'^(?P<event_slug>[-_\w]+)/(?P<slug>[-_\w]+)$',
+    url(r'^(?P<event_slug>[\w-]+)/(?P<slug>[\w-]+)$',
         talk.DetailView.as_view(), name='talk_detail'),
-    url(r'^(?P<slug>[-_\w]+)$',
+    url(r'^(?P<slug>[\w-]+)$',
         talk.DetailView.as_view(), name='talk_detail'),
 
     url(r'^speaker$',
         speaker.ListView.as_view(), name='speaker_list'),
-    url(r'^speaker/(?P<slug>\w+)/$',
+    url(r'^speaker/(?P<slug>[\w-]+)/$',
         speaker.DetailView.as_view(), name='speaker_detail'),
 )
 
