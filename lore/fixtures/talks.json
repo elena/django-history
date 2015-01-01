@@ -361,6 +361,15 @@
 },
 {
     "fields": {
+        "colour": "",
+        "name": "Django Sucks Collection",
+        "slug": "django-sucks-collection"
+    },
+    "model": "lore.category",
+    "pk": 41
+},
+{
+    "fields": {
         "abstract": null,
         "youtube_channel_id": null,
         "youtube_views": null,
@@ -384,9 +393,11 @@
         "youtube_likes": null,
         "pyvideo_pk": 1380,
         "pyvideo_copyright": "Creative Commons Attribution license (reuse allowed",
-        "date_delivered": "2012-09-05T00:00:00",
+        "date_delivered": "2012-09-05T00:00:00Z",
         "slug": "the-dungeon-masters-guide-to-djangos-orm",
-        "categories": [],
+        "categories": [
+            23
+        ],
         "language": "English",
         "pyvideo_tags": "[u'django', u'django-orm']",
         "pyvideo_summary": "If you've ever been curious about Django's ORM implementation, you will have\nnoticed the required learning curve. Some of the code is fairly complicated.\nOther bits are worse. Here comes a 30 or 40 minute guided tour of the\nuncharted realms: how the pieces fit together, where to look for things, why\nthe current design is what it is. A portion of this is my fault; I should\nprobably explain myself.\n\n",
@@ -424,11 +435,13 @@
         "pyvideo_copyright": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0",
         "date_delivered": null,
         "slug": "a-socio-political-analysis-of-open-source-community",
-        "categories": [],
+        "categories": [
+            39
+        ],
         "language": "English",
         "pyvideo_tags": "[u'djangocon', u'djangocon2009', u'opensource']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-ASociopoliticalAnalysisOfOpenSourceCommunity386.png",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -462,11 +475,13 @@
         "pyvideo_copyright": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0",
         "date_delivered": null,
         "slug": "confessions-of-a-life-long-perl-bigot",
-        "categories": [],
+        "categories": [
+            39
+        ],
         "language": "English",
         "pyvideo_tags": "[u'djangocon', u'djangocon2009']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-ConfessionsOfALifeLongPerlBigot929.png",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -504,7 +519,7 @@
         "language": "English",
         "pyvideo_tags": "[u'djangocon', u'djangocon2009']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-CowboyDevelopmentWithDjango354.png",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -542,7 +557,7 @@
         "language": "English",
         "pyvideo_tags": "[u'djangocon', u'djangocon2009', u'satchmo']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-CustomizingYourSatchmoStore406.png",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -578,7 +593,7 @@
         "language": "English",
         "pyvideo_tags": "[]",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-CustomSignalsForUncoupledDesign412.png",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -616,7 +631,7 @@
         "language": "English",
         "pyvideo_tags": "[u'databasemigration', u'djangocon', u'djangocon2009', u'south']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-DatabaseMigrationsSouthAndYou968.png",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -654,7 +669,7 @@
         "language": "English",
         "pyvideo_tags": "[u'deploy', u'deployment', u'djangocon', u'djangocon2009']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-DeployingDjango796.png",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -692,7 +707,7 @@
         "language": "English",
         "pyvideo_tags": "[u'djangocon', u'djangocon2009']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-DjangoIsObsoleteButSoIsEverythingElse277.png",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -730,7 +745,7 @@
         "language": "English",
         "pyvideo_tags": "[u'djangocon', u'djangocon2009', u'jython']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-DjangoOnJythonReadyForProduction857.png",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -766,7 +781,7 @@
         "language": "English",
         "pyvideo_tags": "[u'djangocon', u'djangocon2009']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-DjangoTechnicalDesignPanel418.png",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -804,7 +819,7 @@
         "language": "English",
         "pyvideo_tags": "[u'djangocon', u'djangocon2009']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-FightingMalnutritionWithSMSAndDjango307.png",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -840,7 +855,7 @@
         "language": "English",
         "pyvideo_tags": "[u'djangocon', u'djangocon2009', u'gsoc']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-GoogleSummerOfCodeOverviewPanel901.png",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -878,7 +893,7 @@
         "language": "English",
         "pyvideo_tags": "[u'djangocon', u'djangocon2009', u'pinax']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-HowToContributeToPinax109.png",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -911,12 +926,12 @@
         "pyvideo_pk": 5,
         "pyvideo_copyright": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0",
         "date_delivered": null,
-        "slug": "how-to-name-your-open-source-django-project-after-a-famous-jazz-musician-and-concepts-behind-django-mingus-a-project-leveraging-only-reusable-apps",
+        "slug": "how-to-name-your-open-source-django-project-after-a-famous-jazz",
         "categories": [],
         "language": "English",
         "pyvideo_tags": "[u'djangocon', u'djangocon2009', u'mingus']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-HowToNameYourOpenSourceDjangoProjectAfterAFamousJazz252.png",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -954,7 +969,7 @@
         "language": "English",
         "pyvideo_tags": "[u'djangocon', u'djangocon2009']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-IntroductionFromTheFakeJacobKaplanMoss840.png",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -993,7 +1008,7 @@
         "language": "English",
         "pyvideo_tags": "[u'djangocon', u'djangocon2009', u'pinax']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-IntroductionToPinax842.png",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -1029,7 +1044,7 @@
         "language": "English",
         "pyvideo_tags": "[u'bytecode', u'cpython', u'djangocon', u'djangocon2009', u'pywatch', u'surlex', u'testing']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-LightningTalksDay2668.png",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -1065,7 +1080,7 @@
         "language": "English",
         "pyvideo_tags": "[u'cnotes', u'djangocon', u'djangocon2009', u'psf', u'solace']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-LightningTalksDay3853.png",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -1103,7 +1118,7 @@
         "language": "English",
         "pyvideo_tags": "[u'djangocon', u'djangocon2009', u'postgres', u'postgressql']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-MakingYourPostgreSQLDatabaseSing988.png",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -1141,7 +1156,7 @@
         "language": "English",
         "pyvideo_tags": "[u'djangocon', u'djangocon2009', u'ponies']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-NoBadPony160.png",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -1179,7 +1194,7 @@
         "language": "English",
         "pyvideo_tags": "[u'djangocon', u'djangocon2009']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-NowWhat155.png",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -1217,7 +1232,7 @@
         "language": "English",
         "pyvideo_tags": "[u'djangocon', u'djangocon2009', u'localization', u'transifex']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-PainlessDjangoAppLocalizationWithTransifex294.png",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -1255,7 +1270,7 @@
         "language": "English",
         "pyvideo_tags": "[u'djangocon2009']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-PluggableReusableDjangoAppsAUseCaseAndProposedSolution188.png",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -1291,7 +1306,7 @@
         "language": "English",
         "pyvideo_tags": "[u'comet', u'djangocon', u'djangocon2009']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-RealtimeWebAndOtherBuzzwords380.png",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -1327,7 +1342,7 @@
         "language": "English",
         "pyvideo_tags": "[u'djangocon', u'djangocon2009', u'rest']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-RESTfulPonies488.png",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -1363,7 +1378,7 @@
         "language": "English",
         "pyvideo_tags": "[u'djangocon', u'djangocon2009', u'scaling']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-ScalingDjangoWebApplications829.png",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -1399,7 +1414,7 @@
         "language": "English",
         "pyvideo_tags": "[u'djangocon', u'djangocon2009']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-SellingDjangoToYourSuperiorsSuccessStoriesPanel152.png",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -1435,7 +1450,7 @@
         "language": "English",
         "pyvideo_tags": "[u'djangocon', u'djangocon2009', u'pinax']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-StateOfPinax742.png",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -1473,7 +1488,7 @@
         "language": "English",
         "pyvideo_tags": "[u'djangocon', u'djangocon2009', u'testing']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-TokenTestingTalk148.png",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -1509,7 +1524,7 @@
         "language": "English",
         "pyvideo_tags": "[u'djangocon', u'djangocon2009']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-URDOINGITWRONG701.png",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -1545,7 +1560,7 @@
         "language": "English",
         "pyvideo_tags": "[u'djangocon', u'djangocon2009']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-UsingDjangoInNonStandardWays293.png",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -1581,7 +1596,7 @@
         "language": "English",
         "pyvideo_tags": "[u'debugging', u'djangocon', u'djangocon2009']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-WhatTheHeckWentWrong528.png",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -1612,12 +1627,12 @@
         "pyvideo_pk": 4,
         "pyvideo_copyright": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0",
         "date_delivered": null,
-        "slug": "when-not-to-use-the-orm-bulk-data-loading-strategies-for-large-datasets",
+        "slug": "when-not-to-use-the-orm-bulk-data-loading-strategies-for-large-",
         "categories": [],
         "language": "English",
         "pyvideo_tags": "[u'dataloading', u'djangocon', u'djangocon2009']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-WhenNotToUseTheORMBulkDataLoadingStrategiesForLargeD600.png",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -1649,13 +1664,13 @@
         "youtube_likes": null,
         "pyvideo_pk": 18,
         "pyvideo_copyright": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0",
-        "date_delivered": "2013-05-17T00:00:00",
+        "date_delivered": "2013-05-17T00:00:00Z",
         "slug": "introduction-to-geodjango",
         "categories": [],
         "language": "English",
         "pyvideo_tags": "[]",
         "pyvideo_summary": "Gives an introduction to GeoDjango.",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-IntroductionToGeoDjango145.png",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -1693,7 +1708,7 @@
         "language": "English",
         "pyvideo_tags": "[u'djangocon', u'djangocon2010', u'optimization', u'performance', u'scaling']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-AliceInPerformancelandDownTheRabbitHoleWithFrankWiles688.png",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -1729,7 +1744,7 @@
         "language": "English",
         "pyvideo_tags": "[u'djangocon', u'djangocon2010', u'views']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-AlternativeViews292.png",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -1768,7 +1783,7 @@
         "language": "English",
         "pyvideo_tags": "[u'development', u'djangocon', u'djangocon2010', u'projectmanagement']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-BreakingDownTheProcessOfBuildingACustomCMS112-442.jpg",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -1807,7 +1822,7 @@
         "language": "English",
         "pyvideo_tags": "[u'admin', u'djangocon', u'djangocon2010']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-CustomizingTheDjangoAdmin322-268.jpg",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -1840,12 +1855,12 @@
         "pyvideo_pk": 48,
         "pyvideo_copyright": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0",
         "date_delivered": null,
-        "slug": "data-herding-how-to-shepherd-your-flock-through-valleys-of-darkness",
+        "slug": "data-herding-how-to-shepherd-your-flock-through-valleys-of-dark",
         "categories": [],
         "language": "English",
         "pyvideo_tags": "[u'djangocon', u'djangocon2010', u'django-extensions', u'ipython', u'managementshell', u'orm']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-DataHerdingHowToShepherdYourFlockThroughValleysOfDarkn299.png",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -1878,12 +1893,12 @@
         "pyvideo_pk": 54,
         "pyvideo_copyright": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0",
         "date_delivered": null,
-        "slug": "domain-specific-frameworks-why-they-rock-and-what-can-we-do-to-get-more-of-them",
+        "slug": "domain-specific-frameworks-why-they-rock-and-what-can-we-do-to-",
         "categories": [],
         "language": "English",
         "pyvideo_tags": "[u'djangocon', u'djangocon2010', u'domainspecificframeworks', u'dsf']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-DomainSpecificFrameworksWhyTheyRockAndWhatCanWeDoTo103-637.jpg",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -1921,7 +1936,7 @@
         "language": "English",
         "pyvideo_tags": "[u'djangocon', u'djangocon2010', u'dsf']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-DSFAnnouncementsAndQA629-585.jpg",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -1959,7 +1974,7 @@
         "language": "English",
         "pyvideo_tags": "[u'djangocon', u'djangocon2010', u'performance', u'tuning']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-FirstStepsInPerformanceTuning779-385.jpg",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -1995,7 +2010,7 @@
         "language": "English",
         "pyvideo_tags": "[u'djangocon', u'djangocon2010', u'selling', u'shmpe']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-HowToSellDjango349-877.jpg",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -2033,7 +2048,7 @@
         "language": "English",
         "pyvideo_tags": "[u'api', u'ci', u'continuousintegration', u'databasemigrations', u'debugging', u'delayedexecutions', u'deployment', u'djangocon', u'djangocon2010', u'documentation', u'migrations', u'safety', u'search']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-LargeProblemsInDjangoMostlySolved109-212.jpg",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -2071,7 +2086,7 @@
         "language": "English",
         "pyvideo_tags": "[u'djangocon', u'djangocon2010', u'programming']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-LearningANewCodebase752.png",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -2107,7 +2122,7 @@
         "language": "English",
         "pyvideo_tags": "[u'django-configstore', u'django.contrib.messages', u'django-hashsignal', u'djangozoom', u'dsf', u'hash-signaling', u'lettuce', u'openid', u'orm', u'psf', u'routing']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-LightningTalksDay1811.png",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -2145,7 +2160,7 @@
         "language": "English",
         "pyvideo_tags": "[u'casestudy', u'djangocon', u'djangocon2010']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-MakingTheLeapToDjango231-885.jpg",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -2181,7 +2196,7 @@
         "language": "English",
         "pyvideo_tags": "[u'djangocon', u'djangocon2010', u'geodjango', u'gis']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://s3.mirocommunity.org.s3.amazonaws.com/python/localtv/video_thumbs/1856/375x295.png",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -2219,7 +2234,7 @@
         "language": "English",
         "pyvideo_tags": "[u'celery', u'djangocon', u'djangocon2010', u'messagequeues', u'queues', u'rabbitmq']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-MassagingThePonyMessageQueuesAndYou879.png",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -2257,7 +2272,7 @@
         "language": "English",
         "pyvideo_tags": "[u'djangocon', u'djangocon2010', u'model']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-ModelingChallenges314.png",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -2295,7 +2310,7 @@
         "language": "English",
         "pyvideo_tags": "[u'database', u'djangocon', u'djangocon2010', u'multipledatabases']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-MultidatabasePatterns241.png",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -2331,7 +2346,7 @@
         "language": "English",
         "pyvideo_tags": "[u'casestudy', u'djangocon', u'djangocon2010', u'nosql', u'orm']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-NoSQLAndDjangoPanel848.png",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -2367,7 +2382,7 @@
         "language": "English",
         "pyvideo_tags": "[u'djangocon', u'djangocon2010', u'security']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-PonyPwning519-421.jpg",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -2405,7 +2420,7 @@
         "language": "English",
         "pyvideo_tags": "[u'djangocon', u'djangocon2010', u'modularizing', u'reuse', u'reusing']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-RethinkingTheReusableApplicationParadigm774.png",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -2441,7 +2456,7 @@
         "language": "English",
         "pyvideo_tags": "[u'djangocon', u'djangocon2010']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://s3.amazonaws.com/s3.mirocommunity.org/python/localtv/video_thumbs/1886/375x295.png",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -2479,7 +2494,7 @@
         "language": "English",
         "pyvideo_tags": "[u'core', u'djangocon', u'djangocon2010']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-SoYouWantToBeACoreDeveloper652-390.jpg",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -2517,7 +2532,7 @@
         "language": "English",
         "pyvideo_tags": "[u'djangocon', u'djangocon2010', u'sprints']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-SprintsKickoff627-565.jpg",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -2553,7 +2568,7 @@
         "language": "English",
         "pyvideo_tags": "[u'djangocon', u'djangocon2010', u'pinax']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-StateOfPinax119-438.jpg",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -2591,7 +2606,7 @@
         "language": "English",
         "pyvideo_tags": "[u'databasemigration', u'databasemigrations', u'djangocon', u'djangocon2010', u'migration', u'migrations', u'south']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-StepAwayFromThatDatabase838-974.jpg",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -2629,7 +2644,7 @@
         "language": "English",
         "pyvideo_tags": "[u'casestudy', u'djangocon', u'djangocon2010']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-SwitchingAddonsmozillaorgFromCakePHPToDjango334.png",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -2662,12 +2677,12 @@
         "pyvideo_pk": 65,
         "pyvideo_copyright": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0",
         "date_delivered": null,
-        "slug": "teaching-an-old-pony-new-tricks-maintaining-and-updating-an-aging-django-project",
+        "slug": "teaching-an-old-pony-new-tricks-maintaining-and-updating-an-agi",
         "categories": [],
         "language": "English",
         "pyvideo_tags": "[u'djangocon', u'djangocon2010', u'maintenance', u'updating']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-TeachingAnOldPonyNewTricksMaintainingAndUpdatingAnAgin531-41.jpg",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -2703,7 +2718,7 @@
         "language": "English",
         "pyvideo_tags": "[u'djangocon', u'djangocon2010']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-TechnicalDesignPanel332.png",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -2741,7 +2756,7 @@
         "language": "English",
         "pyvideo_tags": "[u'djangocon', u'djangocon2010']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-TopicsOfInterest641.png",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -2779,7 +2794,7 @@
         "language": "English",
         "pyvideo_tags": "[u'djangocon', u'djangocon2010', u'django-mptt', u'django-treebeard', u'graphs', u'structureddata']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-Treehugging694.png",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -2817,7 +2832,7 @@
         "language": "English",
         "pyvideo_tags": "[u'casestudy', u'djangocon', u'djangocon2010']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-TypewarACaseStudy770-135.jpg",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -2855,7 +2870,7 @@
         "language": "English",
         "pyvideo_tags": "[u'djangocon', u'djangocon2010']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-WelcomeAndChairmansAddress563.png",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -2893,7 +2908,7 @@
         "language": "English",
         "pyvideo_tags": "[u'djangocon', u'djangocon2010']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-WhyDjangoSucksAndHowWeCanFixIt128.png",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -2932,7 +2947,7 @@
         "language": "English",
         "pyvideo_tags": "[u'djangocon', u'djangocon2011', u'forms', u'web']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-AdvancedDjangoFormUsage262-618.jpg",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -2970,7 +2985,7 @@
         "language": "English",
         "pyvideo_tags": "[u'djangocon', u'djangocon2011', u'security', u'web']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-AdvancedSecurityTopics290-576.jpg",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -3008,7 +3023,7 @@
         "language": "English",
         "pyvideo_tags": "[u'djangocon', u'djangocon2011', u'south']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-ALittleSouthSanity152-343.jpg",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -3046,7 +3061,7 @@
         "language": "English",
         "pyvideo_tags": "[u'djangocon', u'djangocon2011', u'pypy', u'web']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-ASummerInTheWild519-270.jpg",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -3079,12 +3094,12 @@
         "pyvideo_pk": 84,
         "pyvideo_copyright": "",
         "date_delivered": null,
-        "slug": "benevolent-designer-for-lifes-keynote-designers-make-it-go-to-eleven",
+        "slug": "benevolent-designer-for-lifes-keynote-designers-make-it-go-to-e",
         "categories": [],
         "language": "English",
         "pyvideo_tags": "[u'design', u'djangocon', u'djangocon2011', u'ui', u'ux']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-BenevolentDesignerForLifesKeynoteDesignersMakeItGoToE975-385.jpg",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -3120,7 +3135,7 @@
         "language": "English",
         "pyvideo_tags": "[u'bestpractices', u'djangocon', u'djangocon2011', u'web']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-BestPracticesForFrontEndDjangoDevelopers521-806.jpg",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -3156,7 +3171,7 @@
         "language": "English",
         "pyvideo_tags": "[u'djangocon', u'djangocon2011', u'tastypie']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-BuildingAPIsInDjangoWithTastypie841-194.jpg",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -3195,7 +3210,7 @@
         "language": "English",
         "pyvideo_tags": "[u'cache', u'caching', u'djangocon', u'djangocon2011', u'memcache', u'web']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-CacheRulesEverythingAroundMe471-781.jpg",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -3271,7 +3286,7 @@
         "language": "English",
         "pyvideo_tags": "[u'daemons', u'datacenters', u'deployment', u'djangocon', u'djangocon2011', u'epio', u'ep.io', u'hosting']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-DeploymentDaemonsAndDatacenters670-810.jpg",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -3307,7 +3322,7 @@
         "language": "English",
         "pyvideo_tags": "[u'djangocon', u'djangocon2011', u'project']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-DjangoCoreDevPanel757-791.jpg",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -3343,7 +3358,7 @@
         "language": "English",
         "pyvideo_tags": "[u'apphosted', u'djangocon', u'djangocon2011', u'djangozoom', u'eldarion', u'epio', u'hosting']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-DjangoHostingPanel628-324.jpg",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -3379,7 +3394,7 @@
         "language": "English",
         "pyvideo_tags": "[u'djangocon', u'djangocon2011', u'packaging']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-DjangoPackageThunderdomeIsYourPackageWorthy568-264.jpg",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -3415,7 +3430,7 @@
         "language": "English",
         "pyvideo_tags": "[u'djangocon', u'djangocon2011', u'history', u'project']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-FiresideChatWithABDFL887-468.jpg",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -3448,12 +3463,12 @@
         "pyvideo_pk": 105,
         "pyvideo_copyright": "",
         "date_delivered": null,
-        "slug": "from-designer-to-djangoer-in-six-weeks-a-story-from-solo-founder",
+        "slug": "from-designer-to-djangoer-in-six-weeks-a-story-from-solo-founde",
         "categories": [],
         "language": "English",
         "pyvideo_tags": "[u'djangocon', u'djangocon2011', u'startup']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-FromDesignerToDjangoerInSixWeeksAStoryFromSoloFounder225-45.jpg",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -3489,7 +3504,7 @@
         "language": "English",
         "pyvideo_tags": "[u'djangocon', u'djangocon2011']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-KeynoteBradFitzpatrick377-484.jpg",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -3525,7 +3540,7 @@
         "language": "English",
         "pyvideo_tags": "[u'community', u'communitymanagement', u'djangocon', u'djangocon2011', u'eaves', u'management']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-KeynoteDavidEaves169-846.jpg",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": "SzGi1DfbZMI"
     },
@@ -3563,7 +3578,7 @@
         "language": "English",
         "pyvideo_tags": "[u'djangocon', u'djangocon2011', u'keynote']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-KeynoteGlyphLefkowitz810-708.jpg",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -3599,7 +3614,7 @@
         "language": "English",
         "pyvideo_tags": "[u'activitystreams', u'backbone.js', u'banana-py', u'cloud', u'contribute', u'djangocon', u'djangocon2011', u'djangoexplorer', u'django-model-blocks', u'eamcs', u'fabulaws', u'multidb', u'multiforms', u'pep8', u'pipetter', u'psychology', u'pyflakes', u'pylint', u'pystar', u'stackato', u'tastypie', u'views', u'wtfawd']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-LightningTalksThursAM543-952.jpg",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -3635,7 +3650,7 @@
         "language": "English",
         "pyvideo_tags": "[u'djangocon', u'djangocon2011', u'djangozoom', u'philo', u'protobuf', u'redis']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-LightningTalksTuePm466-363.jpg",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -3671,7 +3686,7 @@
         "language": "English",
         "pyvideo_tags": "[u'djangocon', u'djangocon2011', u'dotcloud', u'models', u'prezi', u'pushcode']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-LightningTalksWedAm363-324.jpg",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -3709,7 +3724,7 @@
         "language": "English",
         "pyvideo_tags": "[u'djangocon', u'djangocon2011', u'geodjango', u'gis', u'maps', u'polymaps', u'tilestash']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-MakingInteractiveMapsForTheWeb699-509.jpg",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -3747,7 +3762,7 @@
         "language": "English",
         "pyvideo_tags": "[u'djangocon', u'djangocon2011', u'localization', u'multilingual', u'orm', u'translations']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-MakingTheDjangoORMMultilingual519-34.jpg",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -3785,7 +3800,7 @@
         "language": "English",
         "pyvideo_tags": "[u'djangocon', u'djangocon2011', u'exceptions', u'memcache', u'monitoring', u'performance', u'requests', u'transactions']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-MonkeyingAroundWithPythonAtNewRelic328-388.jpg",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -3823,7 +3838,7 @@
         "language": "English",
         "pyvideo_tags": "[u'djangocon', u'djangocon2011', u'pinax']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-PinaxAfterThreeYearsLessonsLearntAndTheWayForward913-612.jpg",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -3862,7 +3877,7 @@
         "language": "English",
         "pyvideo_tags": "[u'data', u'djangocon', u'djangocon2011', u'realtime']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-RealTimeDjango172-84.jpg",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -3900,7 +3915,7 @@
         "language": "English",
         "pyvideo_tags": "[u'chef', u'deployment']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-RealWorldDjangoDeploymentUsingChef158-86.jpg",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -3938,7 +3953,7 @@
         "language": "English",
         "pyvideo_tags": "[u'api', u'djangocon', u'djangocon2011', u'rest']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-RESTfulAPIsPromisesLies340-439.jpg",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -3976,7 +3991,7 @@
         "language": "English",
         "pyvideo_tags": "[u'djangocon', u'djangocon2011', u'docs', u'web']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-RTFMWRiteTheFriendlyManual657-381.jpg",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -4012,7 +4027,7 @@
         "language": "English",
         "pyvideo_tags": "[u'deploying', u'djangocon', u'djangocon2011', u'fabric', u'gunicorn', u'virtualenv', u'web']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-SafelyDeployingOnTheCuttingEdge850-33.jpg",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -4050,7 +4065,7 @@
         "language": "English",
         "pyvideo_tags": "[u'djangocon', u'djangocon2011', u'optimize', u'optimizing', u'postgresql', u'rdbms']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-SecretsOfPostgreSQLPerformance182-231.jpg",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -4088,7 +4103,7 @@
         "language": "English",
         "pyvideo_tags": "[u'djangocon', u'djangocon2011', u'dsf']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-StateOfTheDSFKeynote607-161.jpg",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -4127,7 +4142,7 @@
         "language": "English",
         "pyvideo_tags": "[u'bottlenecks', u'djangocon', u'djangocon2011']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-StopTiltingAtWindmillsSpottingBottlenecks272-78.jpg",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -4165,7 +4180,7 @@
         "language": "English",
         "pyvideo_tags": "[u'dependencies', u'djangocon', u'djangocon2011', u'pip']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-TamingDependenciesWithPip630-709.jpg",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -4203,7 +4218,7 @@
         "language": "English",
         "pyvideo_tags": "[u'basic', u'djangocon', u'djangocon2011', u'learning']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-TeachingDjangoToComrades893-851.jpg",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -4239,7 +4254,7 @@
         "language": "English",
         "pyvideo_tags": "[u'coverage.py', u'djangocon', u'djangocon2011', u'jenkins', u'testing', u'web']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-TestingTheDeveloperStrikesBack360-494.jpg",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -4277,7 +4292,7 @@
         "language": "English",
         "pyvideo_tags": "[u'djangocon', u'djangocon2011', u'lettuce', u'splinter', u'testing']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-TestingWithLettuceAndSplinter801-433.jpg",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -4315,7 +4330,7 @@
         "language": "English",
         "pyvideo_tags": "[u'casestudy', u'djangocon', u'djangocon2011', u'documentation', u'readthedocs', u'rtd', u'rtfd']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-TheStoryAndTechOfReadTheDocs338-916.jpg",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -4353,7 +4368,7 @@
         "language": "English",
         "pyvideo_tags": "[u'djangocon', u'djangocon2011', u'docs']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-WhyTheDjangoDocumentationSucks196-328.jpg",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -4386,12 +4401,12 @@
         "pyvideo_pk": 77,
         "pyvideo_copyright": "",
         "date_delivered": null,
-        "slug": "yall-wanna-scrape-with-us-content-aint-a-thing-web-scraping-with-our-favorite-python-libraries",
+        "slug": "yall-wanna-scrape-with-us-content-aint-a-thing-web-scraping-wit",
         "categories": [],
         "language": "English",
         "pyvideo_tags": "[u'djangocon', u'djangocon2011', u'lxml', u'scraping', u'web']",
         "pyvideo_summary": "",
-        "youtube_thumbnail": "http://a.images.blip.tv/Robertlofthouse-YallWannaScrapeWithUsContentAintAThingWebScrapingWit952-115.jpg",
+        "youtube_thumbnail": null,
         "is_live": true,
         "youtube_id": null
     },
@@ -4423,7 +4438,7 @@
         "youtube_likes": null,
         "pyvideo_pk": 1387,
         "pyvideo_copyright": "Creative Commons Attribution license (reuse allowed",
-        "date_delivered": "2012-10-06T00:00:00",
+        "date_delivered": "2012-10-06T00:00:00Z",
         "slug": "bdfl-keynote-adrian-holovaty",
         "categories": [],
         "language": "English",
@@ -4461,7 +4476,7 @@
         "youtube_likes": null,
         "pyvideo_pk": 1404,
         "pyvideo_copyright": "Creative Commons Attribution license (reuse allowed",
-        "date_delivered": "2012-10-06T00:00:00",
+        "date_delivered": "2012-10-06T00:00:00Z",
         "slug": "djangocon-2012-keynote-eric-sterling",
         "categories": [],
         "language": "English",
@@ -4499,7 +4514,7 @@
         "youtube_likes": null,
         "pyvideo_pk": 1389,
         "pyvideo_copyright": "Creative Commons Attribution license (reuse allowed",
-        "date_delivered": "2012-10-06T00:00:00",
+        "date_delivered": "2012-10-06T00:00:00Z",
         "slug": "djangocon-2012-keynote-geoff-schmidt",
         "categories": [],
         "language": "English",
@@ -4537,7 +4552,7 @@
         "youtube_likes": null,
         "pyvideo_pk": 1400,
         "pyvideo_copyright": "Creative Commons Attribution license (reuse allowed",
-        "date_delivered": "2012-10-06T00:00:00",
+        "date_delivered": "2012-10-06T00:00:00Z",
         "slug": "djangocon-2012-keynote-russell-keith-magee",
         "categories": [],
         "language": "English",
@@ -4575,7 +4590,7 @@
         "youtube_likes": null,
         "pyvideo_pk": 1416,
         "pyvideo_copyright": "Creative Commons Attribution license (reuse allowed",
-        "date_delivered": "2012-10-06T00:00:00",
+        "date_delivered": "2012-10-06T00:00:00Z",
         "slug": "djangocon-2012-keynote-selena-deckelmann",
         "categories": [],
         "language": "English",
@@ -4611,7 +4626,7 @@
         "youtube_likes": null,
         "pyvideo_pk": 1415,
         "pyvideo_copyright": "Creative Commons Attribution license (reuse allowed",
-        "date_delivered": "2012-10-06T00:00:00",
+        "date_delivered": "2012-10-06T00:00:00Z",
         "slug": "djangocon-2012-lightning-talks",
         "categories": [],
         "language": "English",
@@ -4649,7 +4664,7 @@
         "youtube_likes": null,
         "pyvideo_pk": 1407,
         "pyvideo_copyright": "Creative Commons Attribution license (reuse allowed",
-        "date_delivered": "2012-09-06T00:00:00",
+        "date_delivered": "2012-09-06T00:00:00Z",
         "slug": "about-django-from-the-pyramid-guy",
         "categories": [],
         "language": "English",
@@ -4687,7 +4702,7 @@
         "youtube_likes": null,
         "pyvideo_pk": 1410,
         "pyvideo_copyright": "Creative Commons Attribution license (reuse allowed",
-        "date_delivered": "2012-09-06T00:00:00",
+        "date_delivered": "2012-09-06T00:00:00Z",
         "slug": "accelerating-and-enhancing-django-with-redis",
         "categories": [],
         "language": "English",
@@ -4725,7 +4740,7 @@
         "youtube_likes": null,
         "pyvideo_pk": 1408,
         "pyvideo_copyright": "Creative Commons Attribution license (reuse allowed",
-        "date_delivered": "2012-09-06T00:00:00",
+        "date_delivered": "2012-09-06T00:00:00Z",
         "slug": "boosting-teamwork-with-vagrant",
         "categories": [],
         "language": "English",
@@ -4763,7 +4778,7 @@
         "youtube_likes": null,
         "pyvideo_pk": 1411,
         "pyvideo_copyright": "Creative Commons Attribution license (reuse allowed",
-        "date_delivered": "2012-09-06T00:00:00",
+        "date_delivered": "2012-09-06T00:00:00Z",
         "slug": "building-pci-compliant-django-applications",
         "categories": [],
         "language": "English",
@@ -4801,7 +4816,7 @@
         "youtube_likes": null,
         "pyvideo_pk": 1406,
         "pyvideo_copyright": "Creative Commons Attribution license (reuse allowed",
-        "date_delivered": "2012-09-06T00:00:00",
+        "date_delivered": "2012-09-06T00:00:00Z",
         "slug": "djangos-nasal-passage",
         "categories": [],
         "language": "English",
@@ -4839,7 +4854,7 @@
         "youtube_likes": null,
         "pyvideo_pk": 1409,
         "pyvideo_copyright": "Creative Commons Attribution license (reuse allowed",
-        "date_delivered": "2012-09-06T00:00:00",
+        "date_delivered": "2012-09-06T00:00:00Z",
         "slug": "get-off-the-bench-making-the-leap-from-user-to-contributor",
         "categories": [],
         "language": "English",
@@ -4877,7 +4892,7 @@
         "youtube_likes": null,
         "pyvideo_pk": 1414,
         "pyvideo_copyright": "Creative Commons Attribution license (reuse allowed",
-        "date_delivered": "2012-09-06T00:00:00",
+        "date_delivered": "2012-09-06T00:00:00Z",
         "slug": "is-django-for-designers",
         "categories": [],
         "language": "English",
@@ -4915,7 +4930,7 @@
         "youtube_likes": null,
         "pyvideo_pk": 1412,
         "pyvideo_copyright": "Creative Commons Attribution license (reuse allowed",
-        "date_delivered": "2012-09-06T00:00:00",
+        "date_delivered": "2012-09-06T00:00:00Z",
         "slug": "models-and-migrations-and-schemas-oh-my",
         "categories": [],
         "language": "English",
@@ -4954,8 +4969,8 @@
         "youtube_likes": null,
         "pyvideo_pk": 1413,
         "pyvideo_copyright": "Creative Commons Attribution license (reuse allowed",
-        "date_delivered": "2012-09-06T00:00:00",
-        "slug": "under-the-microscope-evaluating-existing-django-code-when-onboarding-a-new-client",
+        "date_delivered": "2012-09-06T00:00:00Z",
+        "slug": "under-the-microscope-evaluating-existing-django-code-when-onboa",
         "categories": [],
         "language": "English",
         "pyvideo_tags": "[u'django']",
@@ -4993,7 +5008,7 @@
         "youtube_likes": null,
         "pyvideo_pk": 1405,
         "pyvideo_copyright": "Creative Commons Attribution license (reuse allowed",
-        "date_delivered": "2012-09-06T00:00:00",
+        "date_delivered": "2012-09-06T00:00:00Z",
         "slug": "where-django-caching-busts-at-the-seams",
         "categories": [],
         "language": "English",
@@ -5031,8 +5046,8 @@
         "youtube_likes": null,
         "pyvideo_pk": 1390,
         "pyvideo_copyright": "Creative Commons Attribution license (reuse allowed",
-        "date_delivered": "2012-09-05T00:00:00",
-        "slug": "between-where-the-tutorials-end-the-wild-west-begins-bringing-new-devs-up-to-speed-on-django",
+        "date_delivered": "2012-09-05T00:00:00Z",
+        "slug": "between-where-the-tutorials-end-the-wild-west-begins-bringing-n",
         "categories": [],
         "language": "English",
         "pyvideo_tags": "[u'django']",
@@ -5069,7 +5084,7 @@
         "youtube_likes": null,
         "pyvideo_pk": 1381,
         "pyvideo_copyright": "Creative Commons Attribution license (reuse allowed",
-        "date_delivered": "2012-09-05T00:00:00",
+        "date_delivered": "2012-09-05T00:00:00Z",
         "slug": "cryptography-for-django-applications",
         "categories": [],
         "language": "English",
@@ -5107,7 +5122,7 @@
         "youtube_likes": null,
         "pyvideo_pk": 1388,
         "pyvideo_copyright": "Creative Commons Attribution license (reuse allowed",
-        "date_delivered": "2012-09-05T00:00:00",
+        "date_delivered": "2012-09-05T00:00:00Z",
         "slug": "django-forms-in-a-web-api-world",
         "categories": [],
         "language": "English",
@@ -5145,7 +5160,7 @@
         "youtube_likes": null,
         "pyvideo_pk": 1386,
         "pyvideo_copyright": "Creative Commons Attribution license (reuse allowed",
-        "date_delivered": "2012-09-05T00:00:00",
+        "date_delivered": "2012-09-05T00:00:00Z",
         "slug": "flasky-goodness-or-why-django-sucks",
         "categories": [],
         "language": "English",
@@ -5183,7 +5198,7 @@
         "youtube_likes": null,
         "pyvideo_pk": 1384,
         "pyvideo_copyright": "Creative Commons Attribution license (reuse allowed",
-        "date_delivered": "2012-09-05T00:00:00",
+        "date_delivered": "2012-09-05T00:00:00Z",
         "slug": "lessons-in-testing",
         "categories": [],
         "language": "English",
@@ -5221,8 +5236,8 @@
         "youtube_likes": null,
         "pyvideo_pk": 1391,
         "pyvideo_copyright": "Creative Commons Attribution license (reuse allowed",
-        "date_delivered": "2012-09-05T00:00:00",
-        "slug": "so-you-want-to-make-a-payment-comparing-and-contrasting-django-payment-options",
+        "date_delivered": "2012-09-05T00:00:00Z",
+        "slug": "so-you-want-to-make-a-payment-comparing-and-contrasting-django-",
         "categories": [],
         "language": "English",
         "pyvideo_tags": "[u'django', u'payments']",
@@ -5259,7 +5274,7 @@
         "youtube_likes": null,
         "pyvideo_pk": 1382,
         "pyvideo_copyright": "Creative Commons Attribution license (reuse allowed",
-        "date_delivered": "2012-09-05T00:00:00",
+        "date_delivered": "2012-09-05T00:00:00Z",
         "slug": "using-celery-with-social-networks",
         "categories": [],
         "language": "English",
@@ -5297,7 +5312,7 @@
         "youtube_likes": null,
         "pyvideo_pk": 1383,
         "pyvideo_copyright": "Creative Commons Attribution license (reuse allowed",
-        "date_delivered": "2012-09-05T00:00:00",
+        "date_delivered": "2012-09-05T00:00:00Z",
         "slug": "what-is-djangos-role-on-mobile",
         "categories": [],
         "language": "English",
@@ -5335,7 +5350,7 @@
         "youtube_likes": null,
         "pyvideo_pk": 1385,
         "pyvideo_copyright": "Creative Commons Attribution license (reuse allowed",
-        "date_delivered": "2012-09-05T00:00:00",
+        "date_delivered": "2012-09-05T00:00:00Z",
         "slug": "why-the-django-community-sucks",
         "categories": [],
         "language": "English",
@@ -5373,7 +5388,7 @@
         "youtube_likes": null,
         "pyvideo_pk": 1379,
         "pyvideo_copyright": "Creative Commons Attribution license (reuse allowed",
-        "date_delivered": "2012-09-04T00:00:00",
+        "date_delivered": "2012-09-04T00:00:00Z",
         "slug": "a-gringos-guide-to-internationalization",
         "categories": [],
         "language": "English",
@@ -5411,7 +5426,7 @@
         "youtube_likes": null,
         "pyvideo_pk": 1398,
         "pyvideo_copyright": "Creative Commons Attribution license (reuse allowed",
-        "date_delivered": "2012-09-04T00:00:00",
+        "date_delivered": "2012-09-04T00:00:00Z",
         "slug": "api-design-tips",
         "categories": [],
         "language": "English",
@@ -5449,7 +5464,7 @@
         "youtube_likes": null,
         "pyvideo_pk": 1402,
         "pyvideo_copyright": "Creative Commons Attribution license (reuse allowed",
-        "date_delivered": "2012-09-04T00:00:00",
+        "date_delivered": "2012-09-04T00:00:00Z",
         "slug": "creating-dynamic-applications-with-django-and-backbonejs",
         "categories": [],
         "language": "English",
@@ -5487,7 +5502,7 @@
         "youtube_likes": null,
         "pyvideo_pk": 1395,
         "pyvideo_copyright": "Creative Commons Attribution license (reuse allowed",
-        "date_delivered": "2012-09-04T00:00:00",
+        "date_delivered": "2012-09-04T00:00:00Z",
         "slug": "debugging-live-python-web-applications",
         "categories": [],
         "language": "English",
@@ -5525,7 +5540,7 @@
         "youtube_likes": null,
         "pyvideo_pk": 1392,
         "pyvideo_copyright": "Creative Commons Attribution license (reuse allowed",
-        "date_delivered": "2012-09-04T00:00:00",
+        "date_delivered": "2012-09-04T00:00:00Z",
         "slug": "designing-your-open-source-project",
         "categories": [],
         "language": "English",
@@ -5563,7 +5578,7 @@
         "youtube_likes": null,
         "pyvideo_pk": 1393,
         "pyvideo_copyright": "Creative Commons Attribution license (reuse allowed",
-        "date_delivered": "2012-09-04T00:00:00",
+        "date_delivered": "2012-09-04T00:00:00Z",
         "slug": "django-on-gevent",
         "categories": [],
         "language": "English",
@@ -5601,7 +5616,7 @@
         "youtube_likes": null,
         "pyvideo_pk": 1394,
         "pyvideo_copyright": "Creative Commons Attribution license (reuse allowed",
-        "date_delivered": "2012-09-04T00:00:00",
+        "date_delivered": "2012-09-04T00:00:00Z",
         "slug": "how-we-found-our-security-best-practices-and-what-they-are",
         "categories": [],
         "language": "English",
@@ -5639,7 +5654,7 @@
         "youtube_likes": null,
         "pyvideo_pk": 1403,
         "pyvideo_copyright": "Creative Commons Attribution license (reuse allowed",
-        "date_delivered": "2012-09-04T00:00:00",
+        "date_delivered": "2012-09-04T00:00:00Z",
         "slug": "maintaining-your-sanity-while-maintaining-your-open-source-app",
         "categories": [],
         "language": "English",
@@ -5678,7 +5693,7 @@
         "youtube_likes": null,
         "pyvideo_pk": 1401,
         "pyvideo_copyright": "Creative Commons Attribution license (reuse allowed",
-        "date_delivered": "2012-09-04T00:00:00",
+        "date_delivered": "2012-09-04T00:00:00Z",
         "slug": "openblock-overview-initial-experience",
         "categories": [],
         "language": "English",
@@ -5716,7 +5731,7 @@
         "youtube_likes": null,
         "pyvideo_pk": 1399,
         "pyvideo_copyright": "Creative Commons Attribution license (reuse allowed",
-        "date_delivered": "2012-09-04T00:00:00",
+        "date_delivered": "2012-09-04T00:00:00Z",
         "slug": "postgresql-when-its-not-your-job",
         "categories": [],
         "language": "English",
@@ -5754,7 +5769,7 @@
         "youtube_likes": null,
         "pyvideo_pk": 1396,
         "pyvideo_copyright": "Creative Commons Attribution license (reuse allowed",
-        "date_delivered": "2012-09-04T00:00:00",
+        "date_delivered": "2012-09-04T00:00:00Z",
         "slug": "take-two-if-i-got-to-do-it-all-over-again",
         "categories": [],
         "language": "English",
@@ -5792,7 +5807,7 @@
         "youtube_likes": null,
         "pyvideo_pk": 1397,
         "pyvideo_copyright": "Creative Commons Attribution license (reuse allowed",
-        "date_delivered": "2012-09-04T00:00:00",
+        "date_delivered": "2012-09-04T00:00:00Z",
         "slug": "views-can-be-classy",
         "categories": [],
         "language": "English",
@@ -5830,7 +5845,7 @@
         "youtube_likes": null,
         "pyvideo_pk": 2247,
         "pyvideo_copyright": "CC-BY-SA",
-        "date_delivered": "2013-07-05T00:00:00",
+        "date_delivered": "2013-07-05T00:00:00Z",
         "slug": "a-state-of-rest",
         "categories": [],
         "language": "English",
@@ -5866,7 +5881,7 @@
         "youtube_likes": null,
         "pyvideo_pk": 2248,
         "pyvideo_copyright": "CC-BY-SA",
-        "date_delivered": "2013-07-05T00:00:00",
+        "date_delivered": "2013-07-05T00:00:00Z",
         "slug": "core-developer-panel",
         "categories": [],
         "language": "English",
@@ -5902,7 +5917,7 @@
         "youtube_likes": null,
         "pyvideo_pk": 2250,
         "pyvideo_copyright": "CC-BY-SA",
-        "date_delivered": "2013-07-05T00:00:00",
+        "date_delivered": "2013-07-05T00:00:00Z",
         "slug": "djangocon-au-lightning-talks",
         "categories": [],
         "language": "English",
@@ -5940,7 +5955,7 @@
         "youtube_likes": null,
         "pyvideo_pk": 2245,
         "pyvideo_copyright": "CC-BY-SA",
-        "date_delivered": "2013-07-05T00:00:00",
+        "date_delivered": "2013-07-05T00:00:00Z",
         "slug": "django-unstrained",
         "categories": [],
         "language": "English",
@@ -5978,7 +5993,7 @@
         "youtube_likes": null,
         "pyvideo_pk": 2241,
         "pyvideo_copyright": "CC-BY-SA",
-        "date_delivered": "2013-07-05T00:00:00",
+        "date_delivered": "2013-07-05T00:00:00Z",
         "slug": "keynote-a-divided-web-a-review-of-the-role-of-frameworks",
         "categories": [],
         "language": "English",
@@ -6016,8 +6031,8 @@
         "youtube_likes": null,
         "pyvideo_pk": 2249,
         "pyvideo_copyright": "CC-BY-SA",
-        "date_delivered": "2013-07-05T00:00:00",
-        "slug": "keynote-the-myth-of-goldilocks-and-the-three-frameworks-pyramid-django-and-plone",
+        "date_delivered": "2013-07-05T00:00:00Z",
+        "slug": "keynote-the-myth-of-goldilocks-and-the-three-frameworks-pyramid",
         "categories": [],
         "language": "English",
         "pyvideo_tags": "[]",
@@ -6054,7 +6069,7 @@
         "youtube_likes": null,
         "pyvideo_pk": 2242,
         "pyvideo_copyright": "CC-BY-SA",
-        "date_delivered": "2013-07-05T00:00:00",
+        "date_delivered": "2013-07-05T00:00:00Z",
         "slug": "porting-django-apps-to-python-3",
         "categories": [],
         "language": "English",
@@ -6092,7 +6107,7 @@
         "youtube_likes": null,
         "pyvideo_pk": 2244,
         "pyvideo_copyright": "CC-BY-SA",
-        "date_delivered": "2013-07-05T00:00:00",
+        "date_delivered": "2013-07-05T00:00:00Z",
         "slug": "secrets-of-the-testing-masters",
         "categories": [],
         "language": "English",
@@ -6130,8 +6145,8 @@
         "youtube_likes": null,
         "pyvideo_pk": 2246,
         "pyvideo_copyright": "CC-BY-SA",
-        "date_delivered": "2013-07-05T00:00:00",
-        "slug": "the-server-side-the-coolest-parts-of-backend-development-with-django",
+        "date_delivered": "2013-07-05T00:00:00Z",
+        "slug": "the-server-side-the-coolest-parts-of-backend-development-with-d",
         "categories": [],
         "language": "English",
         "pyvideo_tags": "[]",
@@ -6168,8 +6183,8 @@
         "youtube_likes": null,
         "pyvideo_pk": 2243,
         "pyvideo_copyright": "CC-BY-SA",
-        "date_delivered": "2013-07-05T00:00:00",
-        "slug": "unleash-the-ponies-using-feincms-to-add-content-tools-that-users-love-to-any-django-model",
+        "date_delivered": "2013-07-05T00:00:00Z",
+        "slug": "unleash-the-ponies-using-feincms-to-add-content-tools-that-user",
         "categories": [],
         "language": "English",
         "pyvideo_tags": "[]",
@@ -6205,7 +6220,7 @@
         "pyvideo_pk": 2453,
         "pyvideo_copyright": "",
         "date_delivered": null,
-        "slug": "djangoconeu-alexgaynorwhatnosqlsupportinthedjangoormlookslikeand284",
+        "slug": "djangoconeu-alexgaynorwhatnosqlsupportinthedjangoormlookslikean",
         "categories": [],
         "language": null,
         "pyvideo_tags": "[]",
@@ -6493,7 +6508,7 @@
         "pyvideo_pk": 2461,
         "pyvideo_copyright": "",
         "date_delivered": null,
-        "slug": "djangoconeu-idangazitdesignfordevelopersmakingyourfrontendsuckless291",
+        "slug": "djangoconeu-idangazitdesignfordevelopersmakingyourfrontendsuckl",
         "categories": [],
         "language": null,
         "pyvideo_tags": "[]",
@@ -6601,7 +6616,7 @@
         "pyvideo_pk": 2464,
         "pyvideo_copyright": "",
         "date_delivered": null,
-        "slug": "djangoconeu-joergkressredsquaredrivinginnovationatbmwwithdjango763",
+        "slug": "djangoconeu-joergkressredsquaredrivinginnovationatbmwwithdjango",
         "categories": [],
         "language": null,
         "pyvideo_tags": "[]",
@@ -6781,7 +6796,7 @@
         "pyvideo_pk": 2469,
         "pyvideo_copyright": "",
         "date_delivered": null,
-        "slug": "djangoconeu-maciejpasternackibestofbothworldsdeployingdjangoapplica229",
+        "slug": "djangoconeu-maciejpasternackibestofbothworldsdeployingdjangoapp",
         "categories": [],
         "language": null,
         "pyvideo_tags": "[]",
@@ -6925,7 +6940,7 @@
         "pyvideo_pk": 2473,
         "pyvideo_copyright": "",
         "date_delivered": null,
-        "slug": "djangoconeu-peterbengtssonusingmongodbinyourdjangoappimplicationsa238",
+        "slug": "djangoconeu-peterbengtssonusingmongodbinyourdjangoappimplicatio",
         "categories": [],
         "language": null,
         "pyvideo_tags": "[]",
@@ -6961,7 +6976,7 @@
         "pyvideo_pk": 2474,
         "pyvideo_copyright": "",
         "date_delivered": null,
-        "slug": "djangoconeu-russellkeithmageenobadponyorexplainingdjangosdevelopment624",
+        "slug": "djangoconeu-russellkeithmageenobadponyorexplainingdjangosdevelo",
         "categories": [],
         "language": null,
         "pyvideo_tags": "[]",
@@ -7681,7 +7696,7 @@
         "pyvideo_pk": 2494,
         "pyvideo_copyright": "",
         "date_delivered": null,
-        "slug": "one-size-fits-all-responsive-web-design-with-django-compass-and-the-less-framework",
+        "slug": "one-size-fits-all-responsive-web-design-with-django-compass-and",
         "categories": [],
         "language": null,
         "pyvideo_tags": "[]",
@@ -8092,7 +8107,7 @@
 {
     "fields": {
         "github": "",
-        "last_updated": "2014-09-27T20:43:31.950",
+        "last_updated": "2014-09-27T20:43:31.950Z",
         "prenom": "Malcolm",
         "people": "malcolm",
         "pyvideo_pk": 21,
@@ -8107,7 +8122,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:44:16.165",
+        "last_updated": "2014-09-27T20:44:16.165Z",
         "prenom": "Adrian",
         "people": "adrian",
         "pyvideo_pk": 415,
@@ -8122,7 +8137,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:44:53.241",
+        "last_updated": "2014-09-27T20:44:53.241Z",
         "prenom": "Jacob",
         "people": "jacobian",
         "pyvideo_pk": 78,
@@ -8137,7 +8152,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:42:49.834",
+        "last_updated": "2014-09-27T20:42:49.834Z",
         "prenom": "Simon",
         "people": "simon",
         "pyvideo_pk": 14,
@@ -8152,7 +8167,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:44:06.857",
+        "last_updated": "2014-09-27T20:44:06.857Z",
         "prenom": "James",
         "people": "ubernostrum",
         "pyvideo_pk": 25,
@@ -8167,7 +8182,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:44:54.073",
+        "last_updated": "2014-09-27T20:44:54.073Z",
         "prenom": "Russell",
         "people": "freakboy3742",
         "pyvideo_pk": 458,
@@ -8182,7 +8197,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:43:51.931",
+        "last_updated": "2014-09-27T20:43:51.931Z",
         "prenom": "Daniel",
         "people": "pydanny",
         "pyvideo_pk": 42,
@@ -8197,7 +8212,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:44:45.423",
+        "last_updated": "2014-09-27T20:44:45.423Z",
         "prenom": "Karen",
         "people": "kmtracey",
         "pyvideo_pk": 740,
@@ -8212,7 +8227,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:44:51.547",
+        "last_updated": "2014-09-27T20:44:51.547Z",
         "prenom": "Alex",
         "people": "kingkilr",
         "pyvideo_pk": 28,
@@ -8227,7 +8242,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:44:27.383",
+        "last_updated": "2014-09-27T20:44:27.383Z",
         "prenom": "Andrew",
         "people": "andrew",
         "pyvideo_pk": 19,
@@ -8242,7 +8257,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:44:22.705",
+        "last_updated": "2014-09-27T20:44:22.705Z",
         "prenom": "Julien",
         "people": "julien",
         "pyvideo_pk": 747,
@@ -8257,7 +8272,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:44:41.554",
+        "last_updated": "2014-09-27T20:44:41.554Z",
         "prenom": "Bryan",
         "people": "bryan",
         "pyvideo_pk": 734,
@@ -8272,7 +8287,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:44:10.689",
+        "last_updated": "2014-09-27T20:44:10.689Z",
         "prenom": "Carl",
         "people": "carljm",
         "pyvideo_pk": 35,
@@ -8287,7 +8302,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:43:27.077",
+        "last_updated": "2014-09-27T20:43:27.077Z",
         "prenom": "Justin",
         "people": "justinlilly",
         "pyvideo_pk": 23,
@@ -8302,7 +8317,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:44:38.916",
+        "last_updated": "2014-09-27T20:44:38.916Z",
         "prenom": "Daniel",
         "people": "daniellindsley",
         "pyvideo_pk": 364,
@@ -8317,7 +8332,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:44:47.890",
+        "last_updated": "2014-09-27T20:44:47.890Z",
         "prenom": "Kenneth",
         "people": "kennethlove",
         "pyvideo_pk": 738,
@@ -8332,7 +8347,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:44:03.220",
+        "last_updated": "2014-09-27T20:44:03.220Z",
         "prenom": "James",
         "people": "jtauber",
         "pyvideo_pk": 16,
@@ -8347,7 +8362,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:42:53.288",
+        "last_updated": "2014-09-27T20:42:53.288Z",
         "prenom": "Brian",
         "people": "brosner",
         "pyvideo_pk": 15,
@@ -8362,7 +8377,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:44:13.836",
+        "last_updated": "2014-09-27T20:44:13.836Z",
         "prenom": "Eric",
         "people": "ericholscher",
         "pyvideo_pk": 17,
@@ -8377,7 +8392,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:44:36.493",
+        "last_updated": "2014-09-27T20:44:36.493Z",
         "prenom": "Eric",
         "people": "ericflo",
         "pyvideo_pk": 24,
@@ -8392,7 +8407,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:44:26.540",
+        "last_updated": "2014-09-27T20:44:26.540Z",
         "prenom": "Julia",
         "people": "juliae",
         "pyvideo_pk": 750,
@@ -8407,7 +8422,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:44:08.180",
+        "last_updated": "2014-09-27T20:44:08.180Z",
         "prenom": "Frank",
         "people": "frankwiles",
         "pyvideo_pk": 18,
@@ -8422,7 +8437,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:42:59.958",
+        "last_updated": "2014-09-27T20:42:59.958Z",
         "prenom": "Kevin",
         "people": "kfricovsky",
         "pyvideo_pk": 4,
@@ -8437,7 +8452,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:44:09.695",
+        "last_updated": "2014-09-27T20:44:09.695Z",
         "prenom": "Brandon",
         "people": "adoleo",
         "pyvideo_pk": 429,
@@ -8452,7 +8467,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:44:33.766",
+        "last_updated": "2014-09-27T20:44:33.766Z",
         "prenom": "David",
         "people": "zeeg",
         "pyvideo_pk": 221,
@@ -8467,7 +8482,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:44:38.084",
+        "last_updated": "2014-09-27T20:44:38.084Z",
         "prenom": "Jacob",
         "people": "otherjacob",
         "pyvideo_pk": 36,
@@ -8482,7 +8497,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:43:21.021",
+        "last_updated": "2014-09-27T20:43:21.021Z",
         "prenom": "Peter",
         "people": "lincolnloop",
         "pyvideo_pk": 30,
@@ -8497,7 +8512,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:44:05.315",
+        "last_updated": "2014-09-27T20:44:05.315Z",
         "prenom": "Noah",
         "people": "coderanger",
         "pyvideo_pk": 48,
@@ -8512,7 +8527,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:44:50.638",
+        "last_updated": "2014-09-27T20:44:50.638Z",
         "prenom": "Simon",
         "people": "drmeers",
         "pyvideo_pk": 840,
@@ -8527,7 +8542,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:43:06.989",
+        "last_updated": "2014-09-27T20:43:06.989Z",
         "prenom": "Ted",
         "people": "twleung",
         "pyvideo_pk": 6,
@@ -8542,7 +8557,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:44:14.624",
+        "last_updated": "2014-09-27T20:44:14.624Z",
         "prenom": "Steve",
         "people": "holdenweb",
         "pyvideo_pk": 26,
@@ -8557,7 +8572,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:44:00.736",
+        "last_updated": "2014-09-27T20:44:00.736Z",
         "prenom": "Zain",
         "people": "zain",
         "pyvideo_pk": 38,
@@ -8572,7 +8587,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:44:23.461",
+        "last_updated": "2014-09-27T20:44:23.461Z",
         "prenom": "Ken",
         "people": "kencochrane",
         "pyvideo_pk": 749,
@@ -8587,7 +8602,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:42:57.461",
+        "last_updated": "2014-09-27T20:42:57.461Z",
         "prenom": "Andy",
         "people": "andymckay",
         "pyvideo_pk": 8,
@@ -8602,7 +8617,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:44:48.680",
+        "last_updated": "2014-09-27T20:44:48.680Z",
         "prenom": "Curtis",
         "people": "funkybob",
         "pyvideo_pk": 1064,
@@ -8617,7 +8632,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:43:48.597",
+        "last_updated": "2014-09-27T20:43:48.597Z",
         "prenom": "Idan",
         "people": "idan",
         "pyvideo_pk": 45,
@@ -8632,7 +8647,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:44:56.279",
+        "last_updated": "2014-09-27T20:44:56.279Z",
         "prenom": "Greg",
         "people": "cogat",
         "pyvideo_pk": 1063,
@@ -8647,7 +8662,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:43:17.190",
+        "last_updated": "2014-09-27T20:43:17.190Z",
         "prenom": "Adam",
         "people": "adam",
         "pyvideo_pk": 11,
@@ -8662,7 +8677,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:42:55.198",
+        "last_updated": "2014-09-27T20:42:55.198Z",
         "prenom": "Chris",
         "people": "chrismcavoy",
         "pyvideo_pk": 5,
@@ -8677,7 +8692,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:42:50.707",
+        "last_updated": "2014-09-27T20:42:50.707Z",
         "prenom": "Chris",
         "people": "moffitcb",
         "pyvideo_pk": 2,
@@ -8692,7 +8707,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:44:35.712",
+        "last_updated": "2014-09-27T20:44:35.712Z",
         "prenom": "David",
         "people": "dgouldin",
         "pyvideo_pk": 730,
@@ -8707,7 +8722,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:43:39.191",
+        "last_updated": "2014-09-27T20:43:39.191Z",
         "prenom": "Shawn",
         "people": "shawnr",
         "pyvideo_pk": 22,
@@ -8722,7 +8737,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:44:04.187",
+        "last_updated": "2014-09-27T20:44:04.187Z",
         "prenom": "Ben",
         "people": "bslavin",
         "pyvideo_pk": 50,
@@ -8737,7 +8752,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:43:46.589",
+        "last_updated": "2014-09-27T20:43:46.589Z",
         "prenom": "Brian",
         "people": "luftyluft",
         "pyvideo_pk": 27,
@@ -8752,7 +8767,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:44:42.321",
+        "last_updated": "2014-09-27T20:44:42.321Z",
         "prenom": "Cody",
         "people": "codysacoder",
         "pyvideo_pk": 735,
@@ -8767,7 +8782,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:43:07.721",
+        "last_updated": "2014-09-27T20:43:07.721Z",
         "prenom": "Dimitris",
         "people": "glezos",
         "pyvideo_pk": 7,
@@ -8782,7 +8797,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:44:44.814",
+        "last_updated": "2014-09-27T20:44:44.814Z",
         "prenom": "Colin",
         "people": "copelco",
         "pyvideo_pk": 741,
@@ -8797,7 +8812,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:44:43.237",
+        "last_updated": "2014-09-27T20:44:43.237Z",
         "prenom": "James",
         "people": "jamessocol",
         "pyvideo_pk": 736,
@@ -8812,7 +8827,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:44:11.756",
+        "last_updated": "2014-09-27T20:44:11.756Z",
         "prenom": "Issac",
         "people": "issackelly",
         "pyvideo_pk": 41,
@@ -8827,7 +8842,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:44:34.739",
+        "last_updated": "2014-09-27T20:44:34.739Z",
         "prenom": "Joe",
         "people": "joejaz",
         "pyvideo_pk": 733,
@@ -8842,7 +8857,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:44:01.523",
+        "last_updated": "2014-09-27T20:44:01.523Z",
         "prenom": "Jonas",
         "people": "ojii",
         "pyvideo_pk": 47,
@@ -8857,7 +8872,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:44:21.928",
+        "last_updated": "2014-09-27T20:44:21.928Z",
         "prenom": "Joshua",
         "people": "jag",
         "pyvideo_pk": 748,
@@ -8872,7 +8887,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:43:20.802",
+        "last_updated": "2014-09-27T20:43:20.802Z",
         "prenom": "Michael",
         "people": "mtrythall",
         "pyvideo_pk": 31,
@@ -8887,7 +8902,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T17:23:34.921",
+        "last_updated": "2014-09-27T17:23:34.921Z",
         "prenom": "Igor",
         "people": "playpauseandstop",
         "pyvideo_pk": null,
@@ -8902,7 +8917,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:44:32.122",
+        "last_updated": "2014-09-27T20:44:32.122Z",
         "prenom": "Tareque",
         "people": "tarequeh",
         "pyvideo_pk": 49,
@@ -8917,7 +8932,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:43:28.417",
+        "last_updated": "2014-09-27T20:43:28.417Z",
         "prenom": "Terry",
         "people": "towen",
         "pyvideo_pk": 34,
@@ -8932,7 +8947,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:44:09.887",
+        "last_updated": "2014-09-27T20:44:09.887Z",
         "prenom": "Yann",
         "people": "yml",
         "pyvideo_pk": 33,
@@ -8947,7 +8962,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T17:24:04.397",
+        "last_updated": "2014-09-27T17:24:04.397Z",
         "prenom": "Sean",
         "people": "seanroth",
         "pyvideo_pk": null,
@@ -8962,7 +8977,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:44:55.246",
+        "last_updated": "2014-09-27T20:44:55.246Z",
         "prenom": "",
         "people": "",
         "pyvideo_pk": 1057,
@@ -8977,7 +8992,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:44:19.504",
+        "last_updated": "2014-09-27T20:44:19.504Z",
         "prenom": "",
         "people": "",
         "pyvideo_pk": 751,
@@ -8992,7 +9007,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:44:32.919",
+        "last_updated": "2014-09-27T20:44:32.919Z",
         "prenom": "",
         "people": "",
         "pyvideo_pk": 726,
@@ -9007,7 +9022,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:42:47.015",
+        "last_updated": "2014-09-27T20:42:47.015Z",
         "prenom": "",
         "people": "",
         "pyvideo_pk": 13,
@@ -9022,7 +9037,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:44:37.306",
+        "last_updated": "2014-09-27T20:44:37.306Z",
         "prenom": "",
         "people": "",
         "pyvideo_pk": 731,
@@ -9037,7 +9052,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:42:54.050",
+        "last_updated": "2014-09-27T20:42:54.050Z",
         "prenom": "",
         "people": "",
         "pyvideo_pk": 20,
@@ -9052,7 +9067,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:44:03.995",
+        "last_updated": "2014-09-27T20:44:03.995Z",
         "prenom": "",
         "people": "",
         "pyvideo_pk": 51,
@@ -9067,7 +9082,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:44:28.138",
+        "last_updated": "2014-09-27T20:44:28.138Z",
         "prenom": "",
         "people": "",
         "pyvideo_pk": 214,
@@ -9082,7 +9097,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:44:46.271",
+        "last_updated": "2014-09-27T20:44:46.271Z",
         "prenom": "",
         "people": "",
         "pyvideo_pk": 739,
@@ -9097,7 +9112,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:44:21.157",
+        "last_updated": "2014-09-27T20:44:21.157Z",
         "prenom": "",
         "people": "",
         "pyvideo_pk": 76,
@@ -9112,7 +9127,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:43:56.001",
+        "last_updated": "2014-09-27T20:43:56.001Z",
         "prenom": "",
         "people": "",
         "pyvideo_pk": 53,
@@ -9127,7 +9142,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:44:39.893",
+        "last_updated": "2014-09-27T20:44:39.893Z",
         "prenom": "",
         "people": "",
         "pyvideo_pk": 742,
@@ -9142,7 +9157,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:44:15.390",
+        "last_updated": "2014-09-27T20:44:15.390Z",
         "prenom": "",
         "people": "",
         "pyvideo_pk": 39,
@@ -9157,7 +9172,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:43:44.745",
+        "last_updated": "2014-09-27T20:43:44.745Z",
         "prenom": "",
         "people": "",
         "pyvideo_pk": 43,
@@ -9172,7 +9187,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:44:44.026",
+        "last_updated": "2014-09-27T20:44:44.026Z",
         "prenom": "",
         "people": "",
         "pyvideo_pk": 743,
@@ -9187,7 +9202,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:44:29.576",
+        "last_updated": "2014-09-27T20:44:29.576Z",
         "prenom": "",
         "people": "",
         "pyvideo_pk": 745,
@@ -9202,7 +9217,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:43:45.838",
+        "last_updated": "2014-09-27T20:43:45.838Z",
         "prenom": "",
         "people": "",
         "pyvideo_pk": 40,
@@ -9217,7 +9232,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:43:51.136",
+        "last_updated": "2014-09-27T20:43:51.136Z",
         "prenom": "",
         "people": "",
         "pyvideo_pk": 37,
@@ -9232,7 +9247,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:43:38.375",
+        "last_updated": "2014-09-27T20:43:38.375Z",
         "prenom": "",
         "people": "",
         "pyvideo_pk": 32,
@@ -9247,7 +9262,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:44:29.178",
+        "last_updated": "2014-09-27T20:44:29.178Z",
         "prenom": "",
         "people": "",
         "pyvideo_pk": 746,
@@ -9262,7 +9277,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:44:13.071",
+        "last_updated": "2014-09-27T20:44:13.071Z",
         "prenom": "",
         "people": "",
         "pyvideo_pk": 54,
@@ -9277,7 +9292,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:44:30.460",
+        "last_updated": "2014-09-27T20:44:30.460Z",
         "prenom": "",
         "people": "",
         "pyvideo_pk": 732,
@@ -9292,7 +9307,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T17:23:04.961",
+        "last_updated": "2014-09-27T17:23:04.961Z",
         "prenom": "",
         "people": "",
         "pyvideo_pk": 1179,
@@ -9307,7 +9322,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:44:40.726",
+        "last_updated": "2014-09-27T20:44:40.726Z",
         "prenom": "",
         "people": "",
         "pyvideo_pk": 737,
@@ -9322,7 +9337,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:43:08.666",
+        "last_updated": "2014-09-27T20:43:08.666Z",
         "prenom": null,
         "people": null,
         "pyvideo_pk": null,
@@ -9337,7 +9352,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:43:22.706",
+        "last_updated": "2014-09-27T20:43:22.706Z",
         "prenom": null,
         "people": null,
         "pyvideo_pk": null,
@@ -9352,7 +9367,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:43:58.178",
+        "last_updated": "2014-09-27T20:43:58.178Z",
         "prenom": null,
         "people": null,
         "pyvideo_pk": null,
@@ -9367,7 +9382,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:44:02.450",
+        "last_updated": "2014-09-27T20:44:02.450Z",
         "prenom": null,
         "people": null,
         "pyvideo_pk": null,
@@ -9382,7 +9397,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:44:17.022",
+        "last_updated": "2014-09-27T20:44:17.022Z",
         "prenom": null,
         "people": null,
         "pyvideo_pk": null,
@@ -9397,7 +9412,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:44:17.933",
+        "last_updated": "2014-09-27T20:44:17.933Z",
         "prenom": null,
         "people": null,
         "pyvideo_pk": null,
@@ -9412,7 +9427,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:44:24.442",
+        "last_updated": "2014-09-27T20:44:24.442Z",
         "prenom": null,
         "people": null,
         "pyvideo_pk": null,
@@ -9427,7 +9442,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:44:31.345",
+        "last_updated": "2014-09-27T20:44:31.345Z",
         "prenom": null,
         "people": null,
         "pyvideo_pk": null,
@@ -9442,7 +9457,7 @@
 {
     "fields": {
         "github": null,
-        "last_updated": "2014-09-27T20:44:52.464",
+        "last_updated": "2014-09-27T20:44:52.464Z",
         "prenom": null,
         "people": null,
         "pyvideo_pk": null,
