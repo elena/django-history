@@ -1,0 +1,65 @@
+{# @@ TODO work out video fallback heirarchy #}
+{% if talk.pyvideo_source_url %}<div>Video link: <a href="{{talk.pyvideo_source_url}}" target="_blank">{{talk.pyvideo_source_url}}</a></div>{% endif %}
+{# {% if talk.youtube_id %}<div>{{talk.youtube_id}}</div>{% endif %} #}
+
+<!-- Portfolio Item Row -->
+<div class="row">
+
+  <div class="col-md-5">
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <a href="{{talk.pyvideo_source_url}}" target="_blank">
+            <img class="img-responsive" src="{% if talk.youtube_thumbnail %}{{talk.youtube_thumbnail}}{% endif %}" alt="">
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="col-md-7">
+
+    <h3>Project Details</h3>
+    Speaker{{ talk.speakers.all|pluralize }}: {{ talk.speakers.all|join:", " }}
+
+      {% if talk.conference_url %}<div>{{talk.conference_url}}</div>{% endif %}
+      {% if talk.youtube_channel_id %}<div>{{talk.youtube_channel_id}}</div>{% endif %}
+      {% if talk.youtube_views %}<div>Youtube views: {{talk.youtube_views}}</div>{% endif %}
+      {% if talk.youtube_likes %}<div>Youtube likes: {{talk.youtube_likes}}</div>{% endif %}
+      {% if talk.youtube_duration %}<div>Duration: {{talk.youtube_duration}}</div>{% endif %}
+      {% if talk.youtube_copyright %}<div>Copyright: {{talk.youtube_copyright}}</div>{% endif %}
+      {% if talk.language %}<div>Language: {{talk.language}}</div>{% endif %}
+
+
+      {# @@ TODO sort out tags #}
+      {# {% if talk.pyvideo_tags %}<div>{{talk.pyvideo_tags}}</div>{% endif %} #}
+      {# {% if talk.view_count %}<div>{{talk.view_count}}</div>{% endif %} #}
+
+
+{# conference details #}
+
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-lg-12">
+    <h3>Project Description</h3>
+    {% if talk.abstract %}{{talk.abstract}}{% endif %}
+    {% if talk.pyvideo_summary %}{{talk.pyvideo_summary}}{% endif %}
+    {% if talk.pyvideo_content %}{{talk.pyvideo_content}}{% endif %}
+
+{# @@ TODO fallback heirarchy #}
+{% comment %}
+{% if talk.title %}{{talk.title}}{% endif %}
+{% if talk.pyvideo_title %}{{talk.pyvideo_title}}{% endif %}
+{% if talk.youtube_title %}{{talk.youtube_title}}{% endif %}
+{% if talk.youtube_summary %}{{talk.youtube_summary}}{% endif %}
+{% if talk.youtube_content %}{{talk.youtube_content}}{% endif %}
+{% endcomment %}
+
+  </div>
+</div>
+<!-- /.row -->

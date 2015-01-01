@@ -1,5 +1,91 @@
 {% extends 'base.html'%}
 
-{% block content %}
+
+{% block title %}
+{{ talk }}
+<div> &nbsp; <small>{{ talk.event }} {% if talk.date_delivered %}({{talk.date_delivered|date:"j-M-Y"}}){% endif %}</small>
+  {# @@ TODO CATEGORY #} {% if talk.categories.all %}{{talk.categories.all|join:", "}}{% endif %}
+</div>
+{% endblock %}
+
+
+{% block body %}
+
+    <!-- Header Carousel -->
+    <header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+
+            <div class="item active">
+
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <h2 class="page-header">Featured:</h2>
+                  </div>
+                </div>
+
+                {% include 'lore/_detail.html' %}
+              </div>
+
+            </div>
+
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+    </header>
+
+<hr>
+
+
+    <div class="container">
+        <!-- Service Tabs -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="page-header">Service Tabs</h2>
+            </div>
+            <div class="col-lg-12">
+
+                <ul id="myTab" class="nav nav-tabs nav-justified">
+                    <li class="active"><a href="#one" data-toggle="tab"><i class="fa fa-tree"></i> Popular</a></li>
+                    <li class=""><a href="#two" data-toggle="tab"><i class="fa fa-car"></i> Recent</a></li>
+                    <li class=""><a href="#three" data-toggle="tab"><i class="fa fa-support"></i> Unwatched</a></li>
+                </ul>
+
+                <div id="myTabContent" class="tab-content">
+                    <div class="tab-pane fade active in" id="one">
+
+    {% include 'lore/_list-list.html' %}
+
+                    </div>
+                    <div class="tab-pane fade" id="two">
+
+    {% include 'lore/_list-list.html' %}
+
+                    </div>
+                    <div class="tab-pane fade" id="three">
+
+    {% include 'lore/_list-list.html' %}
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
 
 {% endblock %}

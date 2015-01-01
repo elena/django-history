@@ -3,8 +3,12 @@
 {% block title %}
 {{ talk }}
 <div>
-  <small>{{ talk.event }}</small>
-  {# @@ TD CATEGORY #}
+  <small>
+      {# @@ TODO event link #}
+      <a href="{% url "events:event_detail" slug=talk.event.slug %}">{{ talk.event }}</a>
+      {% if talk.date_delivered %}({{talk.date_delivered|date:"j-M-Y"}}){% endif %}
+  </small>
+  {# @@ TODO CATEGORY #} {% if talk.categories.all %}{{talk.categories.all|join:", "}}{% endif %}
 </div>
 {% endblock %}
 
@@ -14,6 +18,6 @@
 
 {% block content %}
 
-{{ talk.speakers.all }}
+{% include 'lore/_detail.html' %}
 
 {% endblock %}

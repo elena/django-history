@@ -10,14 +10,6 @@ List of Talks
 
 {% block content %}
 
-<table id="results" class="table table-striped table-hover table-bordered">
-  {% for talk in object_list %}
-  <tr>
-    <td>
-      <a href="{{ talk.get_absolute_url }}">{{ talk }}</a>
-    </td>
-  </tr>
-  {% endfor %}
-</table>
+    {% include 'lore/_list-list.html' %}
 
 {% endblock %}

@@ -14,5 +14,7 @@ class HomePageView(generic.ListView):
             # 'popular': self.form,
             # 'recent': self.request.GET.urlencode(),
             # 'unwatched': self.get_person()
+            'object_list': Talk.objects.all()[:10],
+            'talk': Talk.objects.first(),
         })
         return context_data

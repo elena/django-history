@@ -1,0 +1,21 @@
+{% extends 'lore/base.html' %}
+
+{% block title %}
+{{ event }}
+<div>
+  <small>{{ event.event }}</small>
+  {# @@ TD CATEGORY #}
+</div>
+{% endblock %}
+
+{% block breadcrumbs %}
+<li><a href="{% url 'events:event_list' %}">Events</a></li>
+{% endblock %}
+
+{% block content %}
+
+Count: {{ event.talk_set.count }}
+
+{% include 'lore/_list-list.html' with object_list=event.talk_set.all %}
+
+{% endblock %}
