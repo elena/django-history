@@ -14,10 +14,7 @@ import os
 
 BASE_DIR = os.path.abspath('.')
 
-with open(os.path.join(BASE_DIR, "secrets.json")) as handle:
-    SECRETS = json.load(handle)
-
-SECRET_KEY = SECRETS.get('secret_key')
+SECRET_KEY = 'ft#e#z)!%_w-n0_(()@_gmzpnjbzg_)q$+_szo8$4ca&$3fd!w'
 
 DEBUG = True
 
@@ -36,7 +33,6 @@ INSTALLED_APPS = (
 
     'crispy_forms',
     'reversion',
-    'taggit',
 
     'api',
     'contents',
@@ -44,7 +40,6 @@ INSTALLED_APPS = (
     'lore',
 
     'django_coverage',
-    'django_nose',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -98,11 +93,20 @@ CRISPY_TEMPLATE_PACK = 'bootstrap'
 PYVIDEO_API_URL = 'http://pyvideo.org/api/v2'
 
 
-# Use the test runner provided by nose.
-TEST_RUNNER = b'django_nose.NoseTestSuiteRunner'
+## Heroku
 
-# Set the default args for running our tests.
-NOSE_ARGS = [
-    '--with-spec',
-    '--spec-color'
-]
+import dj_database_url
+DATABASES['default'] =  dj_database_url.config()
+
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+
+SITE_ID = 1
+
+ALLOWED_HOSTS = ['*']
+
+DEBUG = False
+
+try:
+    from .local_settings import *
+except ImportError:
+    pass
