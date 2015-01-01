@@ -100,7 +100,17 @@ reversion.register(Talk)
 class Speaker(models.Model):
     """ There should nearly certainly should be a separate module for speakers.
 
-    But not looking to replace any existing resources out there, just point to them.
+    But not looking to replace any existing resources out there, just point
+    to them.
+
+    BEWARE: There is a pending problem for people who have identical names.
+
+    This can be worked around by using the 2 other external points of reference:
+    * djangpeople username
+    * pyvideo pk
+
+    @@ TD: perhaps could use github account name eventually as all django
+    contributors are now actually required to have such a thing.
     """
     full_name = models.CharField(_('Full name'), max_length=128)
     prenom = models.CharField(_('Prenom'), max_length=64, blank=True, null=True,
@@ -132,11 +142,24 @@ class Speaker(models.Model):
     def get_absolute_url(self):
         return reverse('talks:speaker_detail', kwargs={'slug': self.slug})
 
-    def get_people_url(self):
-        return 'https://people.djangoproject.com/{0}'.format(self.people)
+    def get_people_url(self, username=None):
+        url = 'https://people.djangoproject.com/{0}'
+        if username:
+            return url.format(username)
+        elif self.people:
+            return url.format(self.people)
+        return False
+
+    def get_pyvideo_url(self, pk=None):
+        url = 'http://pyvideo.org/speaker/{0}/'
+        if pk:
+            return url.format(pk)
+        elif self.pyvideo_pk:
+            return url.format(self.pyvideo_pk)
+        return False
 
     def get_existing_speaker_by_full_name(self, full_name):
-        speakers_names = [x.lower() for x in Speaker.objects.all().values_list('full_name', flat=True)]
+        speakers_names = [name.lower() for name in Speaker.objects.all().values_list('full_name', flat=True)]
         if full_name in speakers_names:
             speakers = Speaker.objects.filter(full_name__istartswith=full_name)
             if len(speakers) == 1:
