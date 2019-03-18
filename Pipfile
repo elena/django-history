@@ -5,7 +5,6 @@ name = "pypi"
 
 [packages]
 django-reversion = "==3.0.3"
-requests = "==2.4.3"
 "beautifulsoup4" = "==4.3.2"
 dj-database-url = "==0.3.0"
 waitress = "==0.8.9"
@@ -17,6 +16,7 @@ django-registration = "==2.5.2"
 "bs4" = "*"
 djangorestframework = "*"
 django-crispy-forms = "*"
+requests = "*"
 
 [dev-packages]
 
